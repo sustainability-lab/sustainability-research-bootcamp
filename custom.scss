@@ -112,64 +112,122 @@ thead th {
   font-weight: 600;
 }
 
-// Navigation - Make logo PROMINENT
+// SUPER AGGRESSIVE LOGO STYLING - MAKE IT MASSIVE!
 .navbar {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  min-height: 160px !important;
-  padding: 20px 0 !important;
+  min-height: 200px !important;
+  padding: 25px 0 !important;
+  background: #2E8B57 !important;
 }
 
-// Logo styling - make it HUGE and prominent
-.navbar-brand {
+// FORCE THE LOGO TO BE HUGE - Multiple selectors for maximum override
+.navbar-brand,
+.navbar .navbar-brand,
+.quarto-navbar .navbar-brand {
   padding: 0 !important;
   margin: 0 !important;
   line-height: 1 !important;
   
-  img {
-    height: 140px !important;
-    width: auto !important;
-    max-width: 400px !important;
-    margin: 10px 15px !important;
+  img,
+  svg {
+    height: 180px !important;
+    width: 600px !important;
+    min-height: 180px !important;
+    min-width: 600px !important;
+    max-width: none !important;
+    max-height: none !important;
+    margin: 15px 20px !important;
     display: block !important;
     object-fit: contain !important;
     vertical-align: middle !important;
     transition: transform 0.2s ease !important;
+    transform: scale(1.2) !important;
     
     &:hover {
-      transform: scale(1.05) !important;
+      transform: scale(1.3) !important;
     }
   }
 }
 
-// Override any Bootstrap navbar-brand defaults
+// Force SVG scaling - override viewBox constraints
+.navbar-brand img[src$=".svg"],
+.navbar-brand svg,
+img[src*="logo"],
+img[src*="assets/logo"] {
+  height: 180px !important;
+  width: 600px !important;
+  transform: scale(1.5) !important;
+}
+
+// Nuclear option - override EVERYTHING logo related
+[class*="navbar"] [class*="brand"] img,
+[class*="navbar"] img[src*="logo"],
+.quarto-navigation img,
+.quarto-navbar img,
+header img {
+  height: 180px !important;
+  width: 600px !important;
+  min-height: 180px !important;
+  min-width: 600px !important;
+  transform: scale(1.3) !important;
+}
+
+// Override ANY possible conflicts
 .navbar-brand:hover,
-.navbar-brand:focus {
+.navbar-brand:focus,
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
   text-decoration: none !important;
+  opacity: 1 !important;
 }
 
-// Ensure the navbar brand takes full space
+// Force navbar layout
 .navbar > .container,
-.navbar > .container-fluid {
+.navbar > .container-fluid,
+.quarto-navbar > .container,
+.quarto-navbar > .container-fluid {
   align-items: center !important;
+  justify-content: flex-start !important;
 }
 
-// Ensure navbar content is properly aligned
-.navbar-nav {
+// Navigation items
+.navbar-nav,
+.quarto-navbar .navbar-nav {
   margin-left: auto !important;
   align-items: center !important;
 }
 
-// Make sure logo doesn't get cut off on mobile
+// ABSOLUTE NUCLEAR OVERRIDE - catch everything!
+* img[src*="logo"],
+* img[src*="assets"],
+* svg {
+  &[src*="logo"] {
+    height: 180px !important;
+    width: 600px !important;
+    transform: scale(1.3) !important;
+  }
+}
+
+// Mobile - still big!
 @media (max-width: 768px) {
-  .navbar-brand img {
-    height: 100px !important;
-    max-width: 280px !important;
-    margin: 5px 10px !important;
+  .navbar-brand img,
+  .navbar-brand svg,
+  .navbar .navbar-brand img,
+  .navbar .navbar-brand svg,
+  * img[src*="logo"],
+  * img[src*="assets"] {
+    height: 140px !important;
+    width: 450px !important;
+    min-height: 140px !important;
+    min-width: 450px !important;
+    margin: 10px 15px !important;
+    transform: scale(1.1) !important;
   }
   
-  .navbar {
-    min-height: 120px !important;
-    padding: 10px 0 !important;
+  .navbar,
+  .quarto-navbar {
+    min-height: 160px !important;
+    padding: 15px 0 !important;
   }
 }
 

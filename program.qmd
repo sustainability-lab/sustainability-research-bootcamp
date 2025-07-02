@@ -617,6 +617,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 5. **Deliverable:** 10 manually labeled images + annotation files
 
 **Part D: Traditional ML + Modern Tools Pipeline (30 minutes)**
+
 1. **Integration Task:** Combine all three approaches
 2. **Workflow:**
    - Use YOLO to detect objects in images
@@ -631,6 +632,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 4. **Deliverable:** End-to-end pipeline code + performance benchmarks
 
 **Final Deliverables:**
+
 - Jupyter notebook with all 4 parts integrated
 - Performance comparison: Traditional ML vs Zero-shot vs YOLO
 - Resource utilization report (GPU/CPU/Memory usage)

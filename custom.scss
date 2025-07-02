@@ -112,12 +112,11 @@ thead th {
   font-weight: 600;
 }
 
-// SUPER AGGRESSIVE LOGO STYLING - MAKE IT MASSIVE!
+// Keep navbar NORMAL size but make logo HUGE
 .navbar {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  min-height: 200px !important;
-  padding: 25px 0 !important;
-  background: #2E8B57 !important;
+  min-height: 60px !important;
+  padding: 8px 0 !important;
 }
 
 // FORCE THE LOGO TO BE HUGE - Multiple selectors for maximum override
@@ -130,46 +129,48 @@ thead th {
   
   img,
   svg {
-    height: 180px !important;
-    width: 600px !important;
-    min-height: 180px !important;
-    min-width: 600px !important;
+    height: 120px !important;
+    width: 400px !important;
+    min-height: 120px !important;
+    min-width: 400px !important;
     max-width: none !important;
     max-height: none !important;
-    margin: 15px 20px !important;
+    margin: -20px 10px !important;
     display: block !important;
     object-fit: contain !important;
     vertical-align: middle !important;
     transition: transform 0.2s ease !important;
-    transform: scale(1.2) !important;
+    transform: scale(1.8) !important;
     
     &:hover {
-      transform: scale(1.3) !important;
+      transform: scale(1.9) !important;
     }
   }
 }
 
-// Force SVG scaling - override viewBox constraints
+// Force SVG scaling - override viewBox constraints - HUGE LOGO!
 .navbar-brand img[src$=".svg"],
 .navbar-brand svg,
 img[src*="logo"],
 img[src*="assets/logo"] {
-  height: 180px !important;
-  width: 600px !important;
-  transform: scale(1.5) !important;
+  height: 120px !important;
+  width: 400px !important;
+  transform: scale(2.0) !important;
+  margin: -30px 10px !important;
 }
 
-// Nuclear option - override EVERYTHING logo related
+// Nuclear option - override EVERYTHING logo related - MASSIVE SCALE!
 [class*="navbar"] [class*="brand"] img,
 [class*="navbar"] img[src*="logo"],
 .quarto-navigation img,
 .quarto-navbar img,
 header img {
-  height: 180px !important;
-  width: 600px !important;
-  min-height: 180px !important;
-  min-width: 600px !important;
-  transform: scale(1.3) !important;
+  height: 120px !important;
+  width: 400px !important;
+  min-height: 120px !important;
+  min-width: 400px !important;
+  transform: scale(2.2) !important;
+  margin: -35px 15px !important;
 }
 
 // Override ANY possible conflicts
@@ -197,18 +198,19 @@ header img {
   align-items: center !important;
 }
 
-// ABSOLUTE NUCLEAR OVERRIDE - catch everything!
+// ABSOLUTE NUCLEAR OVERRIDE - HUGE LOGO in NORMAL navbar!
 * img[src*="logo"],
 * img[src*="assets"],
 * svg {
   &[src*="logo"] {
-    height: 180px !important;
-    width: 600px !important;
-    transform: scale(1.3) !important;
+    height: 120px !important;
+    width: 400px !important;
+    transform: scale(2.5) !important;
+    margin: -40px 10px !important;
   }
 }
 
-// Mobile - still big!
+// Mobile - big logo, normal navbar!
 @media (max-width: 768px) {
   .navbar-brand img,
   .navbar-brand svg,
@@ -216,18 +218,18 @@ header img {
   .navbar .navbar-brand svg,
   * img[src*="logo"],
   * img[src*="assets"] {
-    height: 140px !important;
-    width: 450px !important;
-    min-height: 140px !important;
-    min-width: 450px !important;
-    margin: 10px 15px !important;
-    transform: scale(1.1) !important;
+    height: 80px !important;
+    width: 300px !important;
+    min-height: 80px !important;
+    min-width: 300px !important;
+    margin: -20px 10px !important;
+    transform: scale(1.8) !important;
   }
   
   .navbar,
   .quarto-navbar {
-    min-height: 160px !important;
-    padding: 15px 0 !important;
+    min-height: 60px !important;
+    padding: 8px 0 !important;
   }
 }
 

@@ -117,15 +117,19 @@ thead th {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   
   .navbar-brand img {
-    height: 80px;
+    height: 120px !important;
     width: auto;
-    max-width: 250px;
-    margin: 5px 0;
+    max-width: 350px;
+    margin: 10px 0;
   }
   
   .navbar {
-    min-height: 90px;
-    padding: 8px 0;
+    min-height: 140px !important;
+    padding: 15px 0;
+  }
+  
+  .navbar-brand {
+    padding: 0 !important;
   }
 }
 

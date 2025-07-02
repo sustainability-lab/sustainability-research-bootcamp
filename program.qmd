@@ -84,6 +84,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 ### 📝 **Daily Exercises**
 
 #### **Exercise 2A: DataFrame Operations (45 minutes)**
+
 1. Load CSV data and inspect structure
 2. Handle missing values (dropna, fillna, interpolate)
 3. Filter and query operations
@@ -91,6 +92,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 5. Merge and join different datasets
 
 #### **Exercise 2B: Data Cleaning Pipeline (45 minutes)**
+
 1. Remove duplicates and outliers
 2. Convert data types appropriately
 3. Create derived columns
@@ -98,6 +100,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 5. Export cleaned data
 
 #### **Exercise 2C: Visualization Mastery (60 minutes)**
+
 1. Line plots with multiple series
 2. Scatter plots with color coding
 3. Histograms and distribution plots
@@ -279,6 +282,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 5. Analyze tree depth vs performance
 
 #### **Exercise 5B: Ensemble Methods (75 minutes)**
+
 1. Implement Random Forest from scratch
 2. Create bagging and boosting examples
 3. Compare individual trees vs ensemble performance
@@ -286,6 +290,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 5. Out-of-bag error calculation
 
 #### **Exercise 5C: K-Nearest Neighbors (45 minutes)**
+
 1. Implement KNN for classification and regression
 2. Experiment with different distance metrics
 3. Analyze curse of dimensionality
@@ -324,6 +329,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 ### 📝 **Daily Exercises**
 
 #### **Exercise 6A: Neural Network from Scratch (90 minutes)**
+
 1. Implement forward pass for multi-layer perceptron
 2. Code backpropagation algorithm step by step
 3. Add different activation functions (sigmoid, ReLU, tanh)
@@ -331,6 +337,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 5. Compare with analytical solutions
 
 #### **Exercise 6B: PyTorch Mastery (75 minutes)**
+
 1. Recreate Day 6A network using PyTorch
 2. Implement custom loss functions
 3. Create data loaders for batch processing
@@ -339,6 +346,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 
 #### **Exercise 6C: CNN Introduction (60 minutes)**
 **PDF:** [Convolutional Neural Networks](https://nipunbatra.github.io/ml-teaching/slides/CNN.pdf)
+
 1. Build simple CNN for image classification
 2. Understand convolution and pooling operations
 3. Practice with 1D CNN for time series
@@ -376,6 +384,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 ### 📝 **Daily Exercises**
 
 #### **Exercise 7A: Git Fundamentals (60 minutes)**
+
 1. Initialize repository and make commits
 2. Practice branching and merging strategies
 3. Handle merge conflicts effectively
@@ -383,6 +392,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 5. Create and apply patches
 
 #### **Exercise 7B: GitHub Collaboration (75 minutes)**
+
 1. Fork repository and create pull requests
 2. Practice code review process
 3. Use GitHub Issues for project management
@@ -390,6 +400,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 5. Set up GitHub Pages for project showcase
 
 #### **Exercise 7C: ML Project Structure (60 minutes)**
+
 1. Organize ML projects with proper structure
 2. Use .gitignore for ML artifacts
 3. Version control datasets and models
@@ -427,6 +438,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 ### 📝 **Daily Exercises**
 
 #### **Exercise 8A: LaTeX Fundamentals (75 minutes)**
+
 1. Set up Overleaf account and create first document
 2. Learn document structure and basic formatting
 3. Create mathematical equations and formulas
@@ -434,6 +446,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 5. Use bibliography management with BibTeX
 
 #### **Exercise 8B: Scientific Figure Creation (60 minutes)**
+
 1. Export high-quality figures from matplotlib
 2. Create publication-ready plots with proper captions
 3. Design tables for experimental results
@@ -441,6 +454,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 5. Practice figure referencing in text
 
 #### **Exercise 8C: Paper Structure (60 minutes)**
+
 1. Analyze structure of top-tier ML papers
 2. Write effective abstracts and introductions
 3. Create methodology sections with equations
@@ -478,6 +492,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 
 #### **Exercise 9A: Email Communication (45 minutes)**
 **Based on Bootcamp Session 1**
+
 1. Write professional email to potential research advisor
 2. Compose progress report email to supervisor
 3. Request help from external researcher professionally
@@ -486,6 +501,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 
 #### **Exercise 9B: Abstract Analysis (60 minutes)**
 **Based on Bootcamp Session 2**
+
 1. Analyze 5 abstracts from top ML conferences
 2. Identify key components of effective abstracts
 3. Rewrite weak abstracts to improve clarity
@@ -494,6 +510,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 
 #### **Exercise 9C: Scientific Method Application (75 minutes)**
 **Based on Bootcamp Session 3**
+
 1. Formulate testable hypotheses for ML problems
 2. Design controlled experiments
 3. Identify potential confounding variables
@@ -502,6 +519,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 
 #### **Exercise 9D: Debugging Mastery (45 minutes)**
 **Based on Bootcamp Session 4**
+
 1. Analyze effective StackOverflow questions
 2. Practice systematic debugging approaches
 3. Create minimal reproducible examples
@@ -509,7 +527,8 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 5. Develop problem isolation skills
 
 ### 🏆 **Daily Assessment: Research Proposal (120 minutes)**
-**Challenge:** Create a complete research proposal including:
+**Tasks:**
+
 1. Problem statement with motivation
 2. Literature review (10+ papers)
 3. Research methodology and experimental design
@@ -538,6 +557,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 ### 📝 **Daily Exercises**
 
 #### **Exercise 10A: Lab Project Deep Dive (90 minutes)**
+
 1. **JoulesEye Analysis:** Understand energy expenditure estimation using thermal imagery
 2. **SpiroMask Study:** Explore respiratory monitoring through smart face masks
 3. **VayuBuddy Exploration:** Analyze AI-powered air quality chatbot
@@ -545,6 +565,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 5. Choose one project and analyze technical approach in detail
 
 #### **Exercise 10B: Research Gap Identification (60 minutes)**
+
 1. Read 3 recent papers from chosen lab research area
 2. Identify current limitations and challenges
 3. Propose novel extensions using learned ML techniques
@@ -552,6 +573,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 5. Assess potential societal impact
 
 #### **Exercise 10C: Technical Implementation Planning (75 minutes)**
+
 1. Design ML pipeline for chosen problem
 2. Identify required datasets and collection methods
 3. Select appropriate algorithms and evaluation metrics
@@ -562,6 +584,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 
 #### **Phase 1: Proposal Development (120 minutes)**
 Create comprehensive project proposal including:
+
 1. **Problem Statement** (500 words)
    - Sustainability challenge being addressed
    - Current approaches and limitations

@@ -48,6 +48,8 @@ format:
     fontsize: 1.1em
     linestretch: 1.7
     link-external-newwindow: true
+    mermaid:
+      theme: default
 
 execute:
   freeze: auto

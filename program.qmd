@@ -590,6 +590,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 6. **Deliverable:** Confusion matrix + accuracy comparison table
 
 **Part B: YOLO Object Detection (45 minutes)**
+
 1. **Dataset:** Download 20 sample images from [COCO dataset](http://cocodataset.org/#download) (people, cars, animals)
 2. **Task:** Run YOLOv8 object detection using `ultralytics` package
 3. **Code:**
@@ -603,6 +604,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 6. **Deliverable:** Annotated images + detection statistics CSV
 
 **Part C: Label Studio Annotation Workflow (30 minutes)**
+
 1. **Dataset:** 50 images from your YOLO exercise (subset with missing labels)
 2. **Setup:** Create Label Studio project for object detection
 3. **Tasks:**

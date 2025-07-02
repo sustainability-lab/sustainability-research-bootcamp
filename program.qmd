@@ -102,7 +102,9 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 
 ### 🏆 **Daily Assessment: Air Quality Analysis (90 minutes)**
 **Dataset:** Delhi air quality data (PM2.5, PM10, temperature, humidity)
+
 **Tasks:**
+
 1. Load and clean 1 year of hourly air quality data
 2. Handle missing values and outliers
 3. Create time-based features (hour, day, month)

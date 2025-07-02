@@ -70,6 +70,16 @@ $headings-font-weight: 600 !default;
       border-bottom: 2px solid $green-primary;
       padding-bottom: 0.5rem;
       margin-bottom: 1rem;
+      font-size: 1.4rem;
+    }
+    
+    // Add subtle hover effect for grid items
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 8px;
+    
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
   }
 }
@@ -104,12 +114,26 @@ table {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   border-radius: 6px;
   overflow: hidden;
+  margin: 1.5rem 0;
+  width: 100%;
 }
 
 thead th {
   background: $green-primary;
   color: white;
   font-weight: 600;
+  padding: 1rem 0.75rem;
+  text-align: center;
+}
+
+tbody td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-bottom: 1px solid #e9ecef;
+}
+
+tbody tr:hover {
+  background-color: #f8f9fa;
 }
 
 // Keep navbar NORMAL size but make logo HUGE
@@ -135,7 +159,7 @@ thead th {
     min-width: 204px !important;
     max-width: none !important;
     max-height: none !important;
-    margin: 3px 6px !important;
+    margin: 3px 15px !important;
     display: block !important;
     object-fit: contain !important;
     vertical-align: middle !important;
@@ -237,12 +261,21 @@ header img {
 .btn-primary {
   background: linear-gradient(135deg, $green-primary 0%, $green-secondary 100%);
   border: none;
+  border-radius: 8px;
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
   
   &:hover {
     background: linear-gradient(135deg, $green-secondary 0%, $green-primary 100%);
-    transform: translateY(-1px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
   }
+}
+
+.btn-lg {
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
 }
 
 .btn-outline-secondary {

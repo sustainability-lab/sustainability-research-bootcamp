@@ -65,10 +65,12 @@ Every project and dataset focuses on real sustainability challenges - from air q
 
 | Days | Focus | Key Skills | Assessment |
 |------|-------|------------|------------|
-| **1-2** | Python Fundamentals | NumPy, Pandas, Matplotlib | Energy Data Analysis |
-| **3** | Skills Assessment | 40 Challenge Questions | Smart City Analysis |
-| **4-6** | Machine Learning | Linear Models → Neural Networks + PyTorch | Solar Energy + Air Quality |
-| **7-9** | Research Methods | Git, LaTeX, Scientific Writing | Research Proposal |
+| **1-2** | Python Fundamentals | NumPy, Pandas, Matplotlib | Activity Recognition + Weather Analysis |
+| **3** | Skills Assessment | 40 Challenge Questions | Multi-Dataset Analysis |
+| **4-5** | Machine Learning | Linear Models, Trees, KNN | Housing Prices + Iris Classification |
+| **6** | Neural Networks | PyTorch, CNNs, LSTMs | Time Series Prediction |
+| **7-8** | Development & Writing | Git/GitHub, LaTeX/Overleaf | Collaborative Project + Research Paper |
+| **9** | Research Methods | Scientific Communication | Research Proposal |
 | **10** | Modern Tools & Integration | YOLO, Hugging Face, Lab Projects | Internship Project |
 
 :::{.text-center}

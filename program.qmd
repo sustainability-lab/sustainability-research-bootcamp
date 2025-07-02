@@ -50,13 +50,13 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 4. Normalize arrays using broadcasting
 
 ### 🏆 **Daily Assessment: Energy Data Analysis (60 minutes)**
-**Dataset:** Building energy consumption data (synthetic)
+**Dataset:** [UCI Individual Household Electric Power Consumption](https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption)
 **Tasks:**
-1. Load and clean energy consumption data for 100 buildings
-2. Calculate daily, weekly, monthly statistics
-3. Find buildings with highest/lowest consumption
-4. Create normalized consumption per square foot
-5. Identify consumption patterns using array operations
+1. Load and clean household power consumption data
+2. Calculate daily, weekly, monthly statistics  
+3. Find peak consumption patterns
+4. Create normalized consumption metrics
+5. Identify seasonal patterns using array operations
 
 **Deliverable:** Jupyter notebook with clean code and insights
 
@@ -101,7 +101,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 5. Save high-quality figures
 
 ### 🏆 **Daily Assessment: Air Quality Analysis (90 minutes)**
-**Dataset:** Delhi air quality data (PM2.5, PM10, temperature, humidity)
+**Dataset:** [Beijing Air Quality Dataset](https://www.kaggle.com/datasets/sid321axn/beijing-multisite-airquality-data-set) or [OpenWeatherMap Air Pollution API](https://openweathermap.org/api/air-pollution)
 
 **Tasks:**
 
@@ -581,7 +581,7 @@ Create comprehensive project proposal including:
 
 ---
 
-## 📊 **Assessment Framework**
+## 📊 **Assessment Framework & Progress Tracking**
 
 ### Daily Assessments (70% of total score)
 - **Knowledge Application:** Coding challenges and implementations (40%)
@@ -591,6 +591,27 @@ Create comprehensive project proposal including:
 ### Final Assessment (30% of total score)
 - **Capstone Project:** Comprehensive internship proposal (20%)
 - **Presentation:** Communication and defense of ideas (10%)
+
+### Progress Tracking Methods
+- **Daily Check-ins:** 15-minute individual meetings with instructor
+- **Code Reviews:** Live coding sessions to verify understanding
+- **Peer Presentations:** Explain your solution to fellow participants
+- **Version Control:** All work tracked through Git commits with timestamps
+- **Randomized Questions:** Different datasets/parameters for each participant
+
+### Anti-Cheating Measures
+- **Live Coding Sessions:** Random code explanation during daily reviews
+- **Unique Datasets:** Each participant gets different subset/parameters
+- **Timed Assessments:** Completed under supervision
+- **Oral Defense:** Must explain methodology and code decisions
+- **Progressive Complexity:** Later exercises build on earlier work
+- **Pair Programming:** Rotate partners to verify individual skills
+
+### Self-Assessment Tools
+- **Daily Reflection:** Rate your understanding (1-5) of each concept
+- **Skill Checklist:** Track completion of specific competencies
+- **Practice Problems:** Additional exercises for self-paced learning
+- **Peer Feedback:** Anonymous feedback on collaboration and communication
 
 ### Grading Scale
 - **Outstanding (95-100%):** Exceptional preparation, ready for independent research
@@ -616,13 +637,13 @@ Create comprehensive project proposal including:
 - **Lab Resources:** Access to computational servers (Ramanujan, Bhaskar, Sustain)
 - **Accounts:** GitHub, Overleaf, Google Colab
 
-### Datasets Used Throughout Program
-1. **Building Energy Consumption:** Time series forecasting
-2. **Delhi Air Quality:** Environmental data analysis
-3. **Smart City Sensors:** Multi-modal sensor fusion
-4. **Solar Panel Output:** Renewable energy prediction
-5. **Indoor Air Quality:** Health risk classification
-6. **Sustainability Research Papers:** Text analysis and NLP
+### Public Datasets Used Throughout Program
+1. **[UCI Power Consumption](https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption):** Time series forecasting
+2. **[Beijing Air Quality](https://www.kaggle.com/datasets/sid321axn/beijing-multisite-airquality-data-set):** Environmental data analysis
+3. **[Smart City Data](https://www.kaggle.com/datasets/vineethakkinapalli/smart-city-iot-sensor-data):** Multi-modal sensor fusion
+4. **[Solar Power Generation](https://www.kaggle.com/datasets/anikannal/solar-power-generation-data):** Renewable energy prediction
+5. **[Indoor Air Quality](https://www.kaggle.com/datasets/yashvrdnjain/indoor-air-quality-monitoring):** Health risk classification
+6. **[Environmental Research Papers](https://www.semanticscholar.org/):** Text analysis and NLP
 
 ---
 

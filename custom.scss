@@ -129,21 +129,21 @@ thead th {
   
   img,
   svg {
-    height: 56px !important;
-    width: 224px !important;
-    min-height: 56px !important;
-    min-width: 224px !important;
+    height: 46px !important;
+    width: 204px !important;
+    min-height: 46px !important;
+    min-width: 204px !important;
     max-width: none !important;
     max-height: none !important;
-    margin: 5px 10px !important;
+    margin: 3px 6px !important;
     display: block !important;
     object-fit: contain !important;
     vertical-align: middle !important;
     transition: transform 0.2s ease !important;
-    transform: scale(1.2) !important;
+    transform: scale(1.1) !important;
     
     &:hover {
-      transform: scale(1.25) !important;
+      transform: scale(1.2) !important;
     }
   }
 }

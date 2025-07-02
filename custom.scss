@@ -129,48 +129,48 @@ thead th {
   
   img,
   svg {
-    height: 120px !important;
-    width: 400px !important;
-    min-height: 120px !important;
-    min-width: 400px !important;
+    height: 70px !important;
+    width: 280px !important;
+    min-height: 70px !important;
+    min-width: 280px !important;
     max-width: none !important;
     max-height: none !important;
-    margin: -20px 10px !important;
+    margin: 5px 10px !important;
     display: block !important;
     object-fit: contain !important;
     vertical-align: middle !important;
     transition: transform 0.2s ease !important;
-    transform: scale(1.8) !important;
+    transform: scale(1.2) !important;
     
     &:hover {
-      transform: scale(1.9) !important;
+      transform: scale(1.25) !important;
     }
   }
 }
 
-// Force SVG scaling - override viewBox constraints - HUGE LOGO!
+// Force SVG scaling - reasonable size
 .navbar-brand img[src$=".svg"],
 .navbar-brand svg,
 img[src*="logo"],
 img[src*="assets/logo"] {
-  height: 120px !important;
-  width: 400px !important;
-  transform: scale(2.0) !important;
-  margin: -30px 10px !important;
+  height: 70px !important;
+  width: 280px !important;
+  transform: scale(1.3) !important;
+  margin: 5px 10px !important;
 }
 
-// Nuclear option - override EVERYTHING logo related - MASSIVE SCALE!
+// Override EVERYTHING logo related - reasonable scale
 [class*="navbar"] [class*="brand"] img,
 [class*="navbar"] img[src*="logo"],
 .quarto-navigation img,
 .quarto-navbar img,
 header img {
-  height: 120px !important;
-  width: 400px !important;
-  min-height: 120px !important;
-  min-width: 400px !important;
-  transform: scale(2.2) !important;
-  margin: -35px 15px !important;
+  height: 70px !important;
+  width: 280px !important;
+  min-height: 70px !important;
+  min-width: 280px !important;
+  transform: scale(1.4) !important;
+  margin: 5px 15px !important;
 }
 
 // Override ANY possible conflicts
@@ -198,19 +198,19 @@ header img {
   align-items: center !important;
 }
 
-// ABSOLUTE NUCLEAR OVERRIDE - HUGE LOGO in NORMAL navbar!
+// Reasonable override - good sized logo in normal navbar
 * img[src*="logo"],
 * img[src*="assets"],
 * svg {
   &[src*="logo"] {
-    height: 120px !important;
-    width: 400px !important;
-    transform: scale(2.5) !important;
-    margin: -40px 10px !important;
+    height: 70px !important;
+    width: 280px !important;
+    transform: scale(1.5) !important;
+    margin: 5px 10px !important;
   }
 }
 
-// Mobile - big logo, normal navbar!
+// Mobile - reasonable logo, normal navbar
 @media (max-width: 768px) {
   .navbar-brand img,
   .navbar-brand svg,
@@ -218,12 +218,12 @@ header img {
   .navbar .navbar-brand svg,
   * img[src*="logo"],
   * img[src*="assets"] {
-    height: 80px !important;
-    width: 300px !important;
-    min-height: 80px !important;
-    min-width: 300px !important;
-    margin: -20px 10px !important;
-    transform: scale(1.8) !important;
+    height: 50px !important;
+    width: 200px !important;
+    min-height: 50px !important;
+    min-width: 200px !important;
+    margin: 5px 10px !important;
+    transform: scale(1.2) !important;
   }
   
   .navbar,

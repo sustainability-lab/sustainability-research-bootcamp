@@ -32,18 +32,21 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 ### 📝 **Daily Exercises**
 
 #### **Exercise 1A: Array Fundamentals (30 minutes)**
+
 1. Create arrays using different methods (zeros, ones, arange, linspace)
 2. Practice array indexing and slicing
 3. Reshape and transpose operations
 4. Array concatenation and splitting
 
 #### **Exercise 1B: Mathematical Operations (45 minutes)**
+
 1. Element-wise operations vs matrix operations
 2. Statistical functions (mean, std, min, max)
 3. Sorting and searching in arrays
 4. Random number generation and seeding
 
 #### **Exercise 1C: Broadcasting Practice (30 minutes)**
+
 1. Add scalar to array
 2. Operations between arrays of different shapes
 3. Create meshgrids for plotting
@@ -210,6 +213,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 ### 📝 **Daily Exercises**
 
 #### **Exercise 4A: ML Workflow (60 minutes)**
+
 1. Implement train-validation-test splits
 2. Create cross-validation from scratch
 3. Implement basic performance metrics
@@ -217,7 +221,9 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 5. Create learning curves
 
 #### **Exercise 4B: Linear Regression Deep Dive (75 minutes)**
-**PDF:** [Linear Regression Slides](https://nipunbatra.github.io/ml-teaching/slides/linear-regression.pdf)
+**PDF:** [Linear Regression Slides](https://nipunbatra.github.io/ml-teaching/slides/linear-regression.pdf)  
+**Video:** [ML Course Playlist - Linear Regression](https://www.youtube.com/playlist?list=PLftoLyLEwECDqanAL7LkZNnZG9VdNCiJF)
+
 1. Implement linear regression using normal equation
 2. Add regularization (Ridge and Lasso)
 3. **PDF:** [Ridge Regression](https://nipunbatra.github.io/ml-teaching/slides/ridge-regression.pdf)
@@ -226,7 +232,9 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 6. Analyze residuals and model assumptions
 
 #### **Exercise 4C: Classification Fundamentals (60 minutes)**
-**PDF:** [Logistic Regression](https://nipunbatra.github.io/ml-teaching/slides/logistic-1.pdf)
+**PDF:** [Logistic Regression](https://nipunbatra.github.io/ml-teaching/slides/logistic-1.pdf)  
+**Video:** [ML Course Playlist - Classification](https://www.youtube.com/playlist?list=PLftoLyLEwECDqanAL7LkZNnZG9VdNCiJF)
+
 1. Implement logistic regression from scratch
 2. Compare with notebook: [Logistic Regression Implementation](https://nipunbatra.github.io/psdv-teaching/notebooks/logistic-regression-generative.html)
 3. Create confusion matrices and ROC curves
@@ -253,6 +261,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 - **PDF:** [Decision Trees](https://nipunbatra.github.io/ml-teaching/slides/decision-trees.pdf)
 - **PDF:** [Ensemble Methods](https://nipunbatra.github.io/ml-teaching/slides/ensemble.pdf)
 - **PDF:** [K-Nearest Neighbors](https://nipunbatra.github.io/ml-teaching/slides/knn.pdf)
+- **Video:** [ML Course Playlist - Tree Methods](https://www.youtube.com/playlist?list=PLftoLyLEwECDqanAL7LkZNnZG9VdNCiJF)
 
 ### 🎯 **Learning Objectives**
 - Master decision tree algorithms
@@ -262,6 +271,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 ### 📝 **Daily Exercises**
 
 #### **Exercise 5A: Decision Tree Implementation (90 minutes)**
+
 1. Build decision tree from scratch using Gini impurity
 2. Implement tree pruning techniques
 3. Visualize decision boundaries

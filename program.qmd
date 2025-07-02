@@ -576,6 +576,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 #### **Exercise 10C: Modern ML Tools Hands-On Integration (150 minutes)**
 
 **Part A: Hugging Face Zero-Shot Classification (45 minutes)**
+
 1. **Dataset:** [20 Newsgroups Dataset](https://scikit-learn.org/stable/datasets/real_world.html#newsgroups-dataset) (sample 100 articles)
 2. **Task:** Use `pipeline('zero-shot-classification')` from Hugging Face
 3. **Labels:** ['technology', 'sports', 'politics', 'science', 'entertainment']

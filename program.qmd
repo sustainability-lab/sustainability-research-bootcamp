@@ -49,14 +49,14 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 3. Create meshgrids for plotting
 4. Normalize arrays using broadcasting
 
-### 🏆 **Daily Assessment: Energy Data Analysis (60 minutes)**
-**Dataset:** [UCI Individual Household Electric Power Consumption](https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption)
+### 🏆 **Daily Assessment: Activity Recognition Analysis (60 minutes)**
+**Dataset:** [UCI Human Activity Recognition](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones)
 **Tasks:**
-1. Load and clean household power consumption data
-2. Calculate daily, weekly, monthly statistics  
-3. Find peak consumption patterns
-4. Create normalized consumption metrics
-5. Identify seasonal patterns using array operations
+1. Load and explore accelerometer/gyroscope data
+2. Calculate basic statistics for each activity type
+3. Find patterns in sensor readings for walking vs sitting
+4. Create visualizations using NumPy operations
+5. Identify which sensors are most informative
 
 **Deliverable:** Jupyter notebook with clean code and insights
 
@@ -100,23 +100,23 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 4. Subplots and figure customization
 5. Save high-quality figures
 
-### 🏆 **Daily Assessment: Air Quality Analysis (90 minutes)**
-**Dataset:** [Beijing Air Quality Dataset](https://www.kaggle.com/datasets/sid321axn/beijing-multisite-airquality-data-set) or [OpenWeatherMap Air Pollution API](https://openweathermap.org/api/air-pollution)
+### 🏆 **Daily Assessment: Weather Data Analysis (90 minutes)**
+**Dataset:** [UCI Weather Dataset](https://archive.ics.uci.edu/ml/datasets/Weather+Dataset) or built-in [Seaborn Flights Dataset](https://seaborn.pydata.org/generated/seaborn.load_dataset.html)
 
 **Tasks:**
 
-1. Load and clean 1 year of hourly air quality data
-2. Handle missing values and outliers
-3. Create time-based features (hour, day, month)
-4. Calculate daily and monthly averages
-5. Create visualizations:
-   - Time series of PM2.5 levels
-   - Correlation heatmap of pollutants
-   - Distribution plots by season
-   - Hourly patterns visualization
-6. Write data quality report
+1. Load and clean weather data (temperature, humidity, pressure)
+2. Handle missing values using simple methods
+3. Create basic time-based features (month, season)
+4. Calculate monthly averages and trends
+5. Create simple visualizations:
+   - Temperature trends over time
+   - Correlation between weather variables
+   - Monthly distribution plots
+   - Simple seasonal patterns
+6. Write 1-page summary of findings
 
-**Deliverable:** Clean dataset + comprehensive EDA notebook
+**Deliverable:** Clean dataset + basic EDA notebook
 
 ---
 
@@ -230,16 +230,16 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 3. Create confusion matrices and ROC curves
 4. Practice precision, recall, F1-score calculations
 
-### 🏆 **Daily Assessment: Renewable Energy Prediction (90 minutes)**
-**Dataset:** Solar panel energy output prediction
+### 🏆 **Daily Assessment: Housing Price Prediction (90 minutes)**
+**Dataset:** [UCI Boston Housing Dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/housing/)
 **Tasks:**
-1. Predict hourly energy output using weather data
-2. Compare linear regression, ridge, and lasso performance
-3. Implement feature engineering for time-based patterns
-4. Create model evaluation report with visualizations
-5. Interpret coefficients for domain insights
+1. Predict house prices using neighborhood features
+2. Compare linear regression, ridge, and lasso performance  
+3. Create simple feature combinations (e.g., rooms per capita)
+4. Create basic model evaluation with scatter plots
+5. Interpret which features matter most for price
 
-**Bonus:** Implement gradient descent from scratch for linear regression
+**Bonus:** Implement simple gradient descent from scratch
 
 ---
 
@@ -278,17 +278,17 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 3. Analyze curse of dimensionality
 4. Implement efficient neighbor search
 
-### 🏆 **Daily Assessment: Indoor Air Quality Classification (120 minutes)**
-**Dataset:** Indoor air quality measurements with health risk labels
+### 🏆 **Daily Assessment: Wine Quality Classification (120 minutes)**
+**Dataset:** [UCI Wine Quality Dataset](https://archive.ics.uci.edu/ml/datasets/wine+quality)
 **Challenge:**
-1. Build multi-class classifier for air quality risk levels
+1. Build classifier to predict wine quality (good vs bad)
 2. Compare decision tree, random forest, and KNN performance
-3. Implement feature selection using tree-based importance
-4. Create model interpretation dashboard
-5. Handle imbalanced classes appropriately
-6. Deploy model using simple API structure
+3. Use tree-based feature importance to find key factors
+4. Create simple model interpretation plots
+5. Handle class imbalance with basic techniques
+6. Create simple prediction function
 
-**Evaluation:** Model performance + interpretability + deployment readiness
+**Evaluation:** Model performance + interpretability + code clarity
 
 ---
 
@@ -599,6 +599,14 @@ Create comprehensive project proposal including:
 - **Version Control:** All work tracked through Git commits with timestamps
 - **Randomized Questions:** Different datasets/parameters for each participant
 
+### LLM and AI Tool Policy
+- **Learning Phase (Days 1-8):** NO LLMs allowed - build fundamental understanding
+- **Reference Only:** Use official documentation (NumPy docs, Pandas docs, etc.)
+- **Stack Overflow:** Allowed for specific error debugging (with citation)
+- **Books/Tutorials:** Encouraged for concept learning
+- **Why This Policy:** Develop problem-solving skills and deep understanding
+- **Final Projects (Days 9-10):** LLMs allowed as coding assistant (must be declared)
+
 ### Anti-Cheating Measures
 - **Live Coding Sessions:** Random code explanation during daily reviews
 - **Unique Datasets:** Each participant gets different subset/parameters
@@ -637,13 +645,13 @@ Create comprehensive project proposal including:
 - **Lab Resources:** Access to computational servers (Ramanujan, Bhaskar, Sustain)
 - **Accounts:** GitHub, Overleaf, Google Colab
 
-### Public Datasets Used Throughout Program
-1. **[UCI Power Consumption](https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption):** Time series forecasting
-2. **[Beijing Air Quality](https://www.kaggle.com/datasets/sid321axn/beijing-multisite-airquality-data-set):** Environmental data analysis
-3. **[Smart City Data](https://www.kaggle.com/datasets/vineethakkinapalli/smart-city-iot-sensor-data):** Multi-modal sensor fusion
-4. **[Solar Power Generation](https://www.kaggle.com/datasets/anikannal/solar-power-generation-data):** Renewable energy prediction
-5. **[Indoor Air Quality](https://www.kaggle.com/datasets/yashvrdnjain/indoor-air-quality-monitoring):** Health risk classification
-6. **[Environmental Research Papers](https://www.semanticscholar.org/):** Text analysis and NLP
+### Simple Public Datasets Used Throughout Program
+1. **[UCI Human Activity Recognition](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones):** Sensor data analysis
+2. **[UCI Weather Dataset](https://archive.ics.uci.edu/ml/datasets/Weather+Dataset):** Basic time series
+3. **[Seaborn Built-in Datasets](https://seaborn.pydata.org/generated/seaborn.load_dataset.html):** (tips, flights, iris) Simple exploration
+4. **[UCI Wine Quality](https://archive.ics.uci.edu/ml/datasets/wine+quality):** Classification practice
+5. **[UCI Boston Housing](https://archive.ics.uci.edu/ml/machine-learning-databases/housing/):** Regression fundamentals
+6. **[Simple Text Data](https://www.gutenberg.org/):** Basic text processing
 
 ---
 

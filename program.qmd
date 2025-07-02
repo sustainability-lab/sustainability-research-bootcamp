@@ -573,13 +573,65 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 4. Consider practical implementation challenges
 5. Assess potential societal impact
 
-#### **Exercise 10C: Modern ML Tools Integration (75 minutes)**
+#### **Exercise 10C: Modern ML Tools Hands-On Integration (150 minutes)**
 
-1. **Hugging Face Demo:** Try zero-shot classification with `transformers`
-2. **YOLO Exploration:** Run pre-trained object detection on sample images
-3. **Label Studio Setup:** Create simple annotation project (minimal)
-4. **Integration Planning:** Combine traditional ML + modern tools
-5. Plan computational resource requirements for deployment
+**Part A: Hugging Face Zero-Shot Classification (45 minutes)**
+1. **Dataset:** [20 Newsgroups Dataset](https://scikit-learn.org/stable/datasets/real_world.html#newsgroups-dataset) (sample 100 articles)
+2. **Task:** Use `pipeline('zero-shot-classification')` from Hugging Face
+3. **Labels:** ['technology', 'sports', 'politics', 'science', 'entertainment']
+4. **Code:** 
+   ```python
+   from transformers import pipeline
+   classifier = pipeline("zero-shot-classification")
+   results = classifier(text, candidate_labels)
+   ```
+5. **Report:** Compare zero-shot vs traditional Naive Bayes accuracy on same data
+6. **Deliverable:** Confusion matrix + accuracy comparison table
+
+**Part B: YOLO Object Detection (45 minutes)**
+1. **Dataset:** Download 20 sample images from [COCO dataset](http://cocodataset.org/#download) (people, cars, animals)
+2. **Task:** Run YOLOv8 object detection using `ultralytics` package
+3. **Code:**
+   ```python
+   from ultralytics import YOLO
+   model = YOLO('yolov8n.pt')  # nano model
+   results = model.predict(source='images/', save=True)
+   ```
+4. **Analysis:** Count detected objects, measure confidence scores
+5. **Report:** Detection accuracy on 20 test images with bounding boxes
+6. **Deliverable:** Annotated images + detection statistics CSV
+
+**Part C: Label Studio Annotation Workflow (30 minutes)**
+1. **Dataset:** 50 images from your YOLO exercise (subset with missing labels)
+2. **Setup:** Create Label Studio project for object detection
+3. **Tasks:**
+   - Install: `pip install label-studio`
+   - Create project: `label-studio start`
+   - Import 50 images needing annotation
+   - Create labeling interface for bounding boxes
+   - Label 10 images manually (person, car, bike)
+4. **Export:** Download annotations in YOLO format
+5. **Deliverable:** 10 manually labeled images + annotation files
+
+**Part D: Traditional ML + Modern Tools Pipeline (30 minutes)**
+1. **Integration Task:** Combine all three approaches
+2. **Workflow:**
+   - Use YOLO to detect objects in images
+   - Extract detected object crops
+   - Use Hugging Face to classify object types with zero-shot
+   - Compare with manual Label Studio annotations
+3. **Resource Planning:**
+   - GPU requirements: RTX 3080 (8GB) minimum for YOLO
+   - RAM: 16GB for Hugging Face models
+   - Storage: 50GB for models + datasets
+   - Processing time: 2-3 seconds per image
+4. **Deliverable:** End-to-end pipeline code + performance benchmarks
+
+**Final Deliverables:**
+- Jupyter notebook with all 4 parts integrated
+- Performance comparison: Traditional ML vs Zero-shot vs YOLO
+- Resource utilization report (GPU/CPU/Memory usage)
+- Deployment cost estimation for 1000 images/day
 
 ### 🏆 **Final Assessment: Internship Project Proposal (180 minutes)**
 
@@ -594,8 +646,10 @@ Create comprehensive project proposal including:
 2. **Technical Approach** (800 words)
    - Detailed methodology with equations
    - Dataset requirements and collection plan
-   - ML algorithms and architectures
+   - ML algorithms: specify traditional ML + modern tools integration
+   - Include at least ONE of: Hugging Face, YOLO, or PyTorch LSTM
    - Evaluation metrics and baselines
+   - Computational resource specifications (GPU, RAM, storage)
 
 3. **Implementation Plan** (400 words)
    - 6-month timeline with deliverables
@@ -688,8 +742,14 @@ Create comprehensive project proposal including:
 
 ### Hardware Access
 - **Personal Setup:** Laptop with minimum 8GB RAM, 256GB storage
+- **Modern ML Requirements:**
+  - **YOLO/Computer Vision:** RTX 3080 (8GB VRAM) minimum, 16GB RAM
+  - **Hugging Face LLMs:** 16GB RAM minimum, 32GB recommended
+  - **PyTorch Training:** CUDA-capable GPU, 50GB storage for models
 - **Lab Resources:** Access to computational servers (Ramanujan, Bhaskar, Sustain)
-- **Accounts:** GitHub, Overleaf, Google Colab
+  - **Ramanujan:** 4x A100 GPUs (80GB each) - ideal for large model training
+  - **Bhaskar:** 2x RTX A5000 (24GB each) - perfect for YOLO + Hugging Face
+- **Accounts:** GitHub, Overleaf, Google Colab, Hugging Face Hub
 
 ### Simple Public Datasets Used Throughout Program
 1. **[UCI Human Activity Recognition](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones):** Sensor data analysis

@@ -1,0 +1,166 @@
+---
+title: "Sustainability Research Bootcamp"
+subtitle: "10-Day Intensive ML & Research Methods Program"
+author: "Sustainability Lab | IIT Gandhinagar"
+date: today
+format:
+  html:
+    page-layout: full
+---
+
+:::{.hero-banner}
+# Welcome to the Sustainability Research Bootcamp
+
+*Preparing the next generation of AI researchers for sustainability challenges*
+
+[Get Started →](program.qmd){.btn .btn-primary .btn-lg role="button"}
+[View Schedule →](days-1-2.qmd){.btn .btn-outline-secondary .btn-lg role="button"}
+:::
+
+## Program Overview
+
+This **10-day intensive bootcamp** prepares interns, researchers, and students with essential machine learning fundamentals, research methods, and practical skills needed to tackle sustainability challenges using AI.
+
+::::{.grid}
+
+:::{.g-col-12 .g-col-md-4}
+### 🚀 **Comprehensive**
+From Python basics to neural networks, covering the complete ML pipeline with hands-on projects using real sustainability datasets.
+:::
+
+:::{.g-col-12 .g-col-md-4}
+### 🔬 **Research-Focused**
+Includes scientific writing, research methods, and the complete CS Research Bootcamp for developing strong research skills.
+:::
+
+:::{.g-col-12 .g-col-md-4}
+### 🌱 **Sustainability-Driven**
+Every project and dataset focuses on real sustainability challenges - from air quality prediction to energy forecasting.
+:::
+
+::::
+
+## What You'll Learn
+
+::::{.grid}
+
+:::{.g-col-12 .g-col-md-6}
+### Technical Skills
+- **Python Mastery**: NumPy, Pandas, Matplotlib
+- **Machine Learning**: Supervised/unsupervised learning, neural networks
+- **Deep Learning**: PyTorch, CNNs, time series forecasting
+- **MLOps**: Git, GitHub, model deployment
+:::
+
+:::{.g-col-12 .g-col-md-6}
+### Research Skills
+- **Scientific Writing**: LaTeX, paper structure, academic communication
+- **Research Methods**: Hypothesis testing, experimental design
+- **Collaboration**: Version control, peer review, documentation
+- **Communication**: Presentations, technical writing, email etiquette
+:::
+
+::::
+
+## Program Structure
+
+```{mermaid}
+flowchart TD
+    A[Days 1-2: Python Fundamentals] --> B[Day 3: 40-Question Assessment]
+    B --> C[Days 4-6: Machine Learning]
+    C --> D[Days 7-9: Research Methods]
+    D --> E[Day 10: Integration & Projects]
+    
+    A --> F[NumPy, Pandas, Matplotlib]
+    C --> G[Linear Models, Trees, Neural Networks]
+    D --> H[Git, LaTeX, Research Bootcamp]
+    E --> I[Final Project Proposal]
+```
+
+## Target Audience
+
+::::{.grid}
+
+:::{.g-col-12 .g-col-md-3}
+**Summer Interns**
+6-week to 3-month research internships
+:::
+
+:::{.g-col-12 .g-col-md-3}
+**Long-term Interns**
+6-month research positions
+:::
+
+:::{.g-col-12 .g-col-md-3}
+**Junior Research Fellows**
+PhD and postdoc preparation
+:::
+
+:::{.g-col-12 .g-col-md-3}
+**Interested Researchers**
+Anyone wanting to work with the lab
+:::
+
+::::
+
+## Course Materials Integration
+
+This bootcamp leverages proven course materials from:
+
+- **[ES 114 PSDV](https://nipunbatra.github.io/psdv25/)**: Python fundamentals with actual YouTube lectures
+- **[ES 335 ML](https://nipunbatra.github.io/ml2024/)**: Machine learning with comprehensive PDF slides
+- **[CS Research Bootcamp](https://github.com/nipunbatra/CS-Research-Methods-Bootcamp)**: Research methods and scientific thinking
+- **Lab Projects**: Real sustainability datasets and applications
+
+## Assessment & Certification
+
+::::{.grid}
+
+:::{.g-col-12 .g-col-md-4}
+### Daily Assessments (70%)
+- Coding challenges
+- Mini-projects with real data  
+- Research exercises
+:::
+
+:::{.g-col-12 .g-col-md-4}
+### Final Project (30%)
+- Comprehensive research proposal
+- 20-minute presentation
+- Peer review process
+:::
+
+:::{.g-col-12 .g-col-md-4}
+### Certification Levels
+- **Outstanding (95-100%)**: Ready for independent research
+- **Excellent (90-94%)**: Advanced project readiness
+- **Good (80-89%)**: Guided research capability
+:::
+
+::::
+
+## Success Stories
+
+> *"The bootcamp transformed my understanding of ML for sustainability. The hands-on projects with real air quality data prepared me perfectly for my research internship."*
+> 
+> — Previous Participant
+
+> *"The combination of technical skills and research methods gave me everything I needed to contribute meaningfully to lab projects from day one."*
+> 
+> — Summer Intern 2024
+
+## Get Started
+
+Ready to begin your journey in sustainability research?
+
+[**View Full Program →**](program.qmd){.btn .btn-primary .btn-lg}
+
+[**Contact Us →**](about.qmd){.btn .btn-outline-secondary .btn-lg}
+
+---
+
+:::{.text-center}
+*Built by the Sustainability Lab at IIT Gandhinagar*
+
+*Harnessing AI to create a sustainable future where technology serves both people and planet*
+:::

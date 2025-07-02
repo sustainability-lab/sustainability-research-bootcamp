@@ -1,0 +1,90 @@
+project:
+  type: website
+  title: "Sustainability Research Bootcamp"
+  output-dir: docs
+
+website:
+  title: "Sustainability Research Bootcamp"
+  description: "10-Day Intensive ML & Research Methods Program | Sustainability Lab, IIT Gandhinagar"
+  site-url: "https://sustainability-lab.github.io/sustainability-research-bootcamp"
+  repo-url: "https://github.com/sustainability-lab/sustainability-research-bootcamp"
+  
+  navbar:
+    logo: "assets/logo.png"
+    title: "Sustainability Research Bootcamp"
+    background: "#2E8B57"
+    foreground: "#FFFFFF"
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "Program"
+        file: program.qmd
+      - text: "Daily Schedule"
+        menu:
+          - text: "Days 1-2: Python Basics"
+            file: days-1-2.qmd
+          - text: "Day 3: Assessment"
+            file: day-3.qmd
+          - text: "Days 4-6: Machine Learning"
+            file: days-4-6.qmd
+          - text: "Days 7-9: Research Skills"
+            file: days-7-9.qmd
+          - text: "Day 10: Integration"
+            file: day-10.qmd
+      - text: "Resources"
+        file: resources.qmd
+      - text: "About"
+        file: about.qmd
+    right:
+      - icon: github
+        href: "https://github.com/sustainability-lab/sustainability-research-bootcamp"
+      - icon: globe
+        href: "https://sustainability-lab.github.io/"
+
+  sidebar:
+    - title: "Program Overview"
+      contents:
+        - index.qmd
+        - program.qmd
+    - title: "Daily Schedule"
+      contents:
+        - days-1-2.qmd
+        - day-3.qmd
+        - days-4-6.qmd
+        - days-7-9.qmd
+        - day-10.qmd
+    - title: "Resources"
+      contents:
+        - resources.qmd
+        - about.qmd
+
+  page-footer:
+    left: |
+      © 2025 Sustainability Lab, IIT Gandhinagar
+    right: |
+      Built with [Quarto](https://quarto.org)
+    center: |
+      Contact: [nipun.batra@iitgn.ac.in](mailto:nipun.batra@iitgn.ac.in)
+
+format:
+  html:
+    theme: 
+      - cosmo
+      - custom.scss
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    toc-location: right
+    number-sections: true
+    code-copy: true
+    code-fold: false
+    highlight-style: github
+    fontsize: 1.1em
+    linestretch: 1.7
+    link-external-newwindow: true
+
+execute:
+  freeze: auto
+  echo: true
+  warning: false
+  error: false

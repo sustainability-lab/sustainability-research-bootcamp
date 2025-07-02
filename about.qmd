@@ -1,0 +1,225 @@
+---
+title: "About"
+subtitle: "Program Information & Contact"
+---
+
+## 🏛️ **About the Sustainability Lab**
+
+The **Sustainability Lab** at IIT Gandhinagar harnesses artificial intelligence to create technological solutions that serve both people and the planet. Our research focuses on developing AI systems that address critical sustainability challenges while maintaining ethical and responsible practices.
+
+### 🎯 **Research Focus Areas**
+
+::::{.grid}
+
+:::{.g-col-12 .g-col-md-4}
+#### 🏥 Health Technology
+- **JoulesEye**: Energy expenditure estimation using thermal imagery
+- **SpiroMask**: Respiratory monitoring through smart face masks
+- **Continuous Respiration Detection**: Non-invasive health monitoring
+:::
+
+:::{.g-col-12 .g-col-md-4}
+#### 🌍 Environmental Monitoring
+- **Space to Policy**: Satellite imagery for environmental compliance
+- **VayuBuddy**: AI-powered chatbot for air quality data
+- **AirDelhi**: Fine-grained air quality monitoring systems
+:::
+
+:::{.g-col-12 .g-col-md-4}
+#### ⚡ Energy Systems
+- **Smart Grid Analytics**: Energy consumption optimization
+- **Renewable Energy Forecasting**: Solar and wind prediction models
+- **Building Energy Management**: IoT-based monitoring solutions
+:::
+
+::::
+
+### 💡 **Lab Mission**
+
+> *"Harnessing AI to create a sustainable future where technology serves both people and planet"*
+
+We believe that artificial intelligence can be a powerful force for positive change when applied thoughtfully to sustainability challenges. Our work bridges the gap between cutting-edge research and real-world impact.
+
+---
+
+## 📚 **About This Bootcamp**
+
+### 🎓 **Program Philosophy**
+
+This bootcamp reflects our commitment to **excellence, collaboration, and meaningful impact**. We combine:
+
+- **Rigorous Technical Training**: Building strong foundations in ML and data science
+- **Research Methodology**: Developing scientific thinking and communication skills  
+- **Practical Application**: Working with real sustainability datasets and challenges
+- **Collaborative Learning**: Fostering teamwork and peer-to-peer learning
+
+### 🌟 **What Makes This Program Unique**
+
+1. **Sustainability Focus**: Every project and dataset addresses real environmental or social challenges
+2. **Proven Materials**: Built on established course content with thousands of students
+3. **Research Integration**: Combines technical skills with research methodology
+4. **Real Impact**: Graduates contribute to meaningful research projects immediately
+
+### 🎯 **Learning Outcomes**
+
+Participants will develop:
+
+- **Technical Expertise**: Python, ML algorithms, neural networks, deployment
+- **Research Skills**: Scientific thinking, experimental design, paper writing
+- **Communication**: Presentations, technical writing, collaborative development
+- **Impact Mindset**: Understanding how AI can address sustainability challenges
+
+---
+
+## 👥 **Program Leadership**
+
+### 🔬 **Academic Leadership**
+
+**Dr. Nipun Batra**  
+*Associate Professor, Computer Science & Engineering*  
+*IIT Gandhinagar*
+
+- **Research Interests**: Machine Learning, IoT, Sustainability, Human-Computer Interaction
+- **Education**: PhD from IIIT Delhi, Postdoc from University of Virginia
+- **Impact**: 100+ publications, 3000+ citations, multiple best paper awards
+
+### 📊 **Course Development**
+
+This bootcamp integrates content from multiple established courses:
+
+- **ES 114 PSDV (2025)**: 200+ students, comprehensive Python and statistics foundation
+- **ES 335 ML (2024)**: Advanced machine learning with hands-on projects
+- **ES 661 PML (2023)**: Probabilistic machine learning and Bayesian methods
+- **CS Research Bootcamp**: Research methodology and scientific communication
+
+---
+
+## 🏢 **Facilities & Resources**
+
+### 💻 **Computational Infrastructure**
+
+Our lab provides access to high-performance computing resources:
+
+**Servers (Named after Mathematicians):**
+- **Ramanujan**: 4x NVIDIA A100 GPUs (80GB each), 512GB RAM
+- **Bhaskar**: 2x NVIDIA RTX A5000 GPUs (24GB each), 256GB RAM  
+- **Sustain**: 2x NVIDIA RTX A4000 GPUs (16GB each), 192GB RAM
+
+**Workstations:**
+- **Aryabhata**: NVIDIA RTX Titan XP, 32GB RAM
+- **Vikram**: NVIDIA RTX A2000, 64GB RAM
+
+### 📚 **Learning Environment**
+
+- **Modern Classrooms**: Equipped with projection and collaboration tools
+- **Library Access**: IIT Gandhinagar library with extensive technical resources
+- **Collaborative Spaces**: Areas for group work and peer learning
+- **Online Platforms**: Slack, GitHub, Overleaf, Google Colab integration
+
+---
+
+## 🌍 **Global Impact**
+
+### 🤝 **Industry Partnerships**
+
+Our research is supported by leading technology companies:
+- **Google**: Cloud computing and AI research grants
+- **Microsoft**: Azure credits and research collaboration
+- **Cisco**: Networking and IoT research
+- **NVIDIA**: GPU computing and deep learning
+
+### 🏆 **Recognition & Awards**
+
+- **Best Paper Awards**: Top-tier conferences (AAAI, WWW, BuildSys)
+- **Innovation Awards**: Recognition for practical impact
+- **Student Achievements**: Graduates placed in top PhD programs and industry roles
+
+### 📈 **Research Impact**
+
+- **100+ Publications**: In top-tier conferences and journals
+- **3000+ Citations**: Significant influence on the research community
+- **Real-world Deployment**: Multiple systems deployed in practice
+- **Policy Influence**: Research informing environmental policy decisions
+
+---
+
+## 📞 **Contact Information**
+
+### 🎓 **Academic Inquiries**
+
+**Dr. Nipun Batra**  
+Email: nipun.batra@iitgn.ac.in  
+Office: Academic Block 7, Room 7/320  
+Phone: +91-79-2395-2467
+
+### 💻 **Technical Support**
+
+**Lab IT Coordinator**  
+Mr. Raviraj Sukhadiya  
+Email: raviraj.s@iitgn.ac.in  
+(For computational resource access)
+
+### 🏢 **Lab Address**
+
+Sustainability Lab  
+Computer Science & Engineering  
+Indian Institute of Technology Gandhinagar  
+Palaj Campus, Gandhinagar 382355  
+Gujarat, India
+
+### 🌐 **Online Presence**
+
+- **Lab Website**: https://sustainability-lab.github.io/
+- **GitHub**: https://github.com/sustainability-lab
+- **Twitter**: Updates on research and publications
+- **LinkedIn**: Professional networking and opportunities
+
+---
+
+## 🚀 **Application Process**
+
+### 📝 **How to Apply**
+
+Interested candidates should email with:
+
+1. **Current CV/Resume**
+2. **Research interests and goals**
+3. **Desired duration and start date**
+4. **1-2 papers from the lab that you've read**
+5. **Motivation for AI and sustainability research**
+
+### 📅 **Application Timeline**
+
+- **Summer Internships**: Applications typically open in February
+- **Long-term Positions**: Rolling admissions throughout the year
+- **JRF Positions**: Specific calls announced on lab website
+
+### ✅ **Selection Criteria**
+
+- **Technical Background**: Strong programming and mathematical foundation
+- **Research Interest**: Genuine interest in sustainability applications
+- **Communication Skills**: Ability to work in collaborative environment
+- **Commitment**: Dedication to producing high-quality research
+
+---
+
+## 🎯 **Frequently Asked Questions**
+
+### **Q: What are the prerequisites for the bootcamp?**
+A: Basic Python programming knowledge is required. Familiarity with mathematics (linear algebra, statistics) is helpful but not mandatory.
+
+### **Q: How long does the bootcamp take?**
+A: The intensive program runs for 10 consecutive days, with 4-5 hours of content each day.
+
+### **Q: Can I attend remotely?**
+A: The bootcamp is designed for in-person participation to maximize collaboration and hands-on learning. Remote options may be available for exceptional circumstances.
+
+### **Q: What happens after completing the bootcamp?**
+A: Graduates are well-prepared for research internships, PhD applications, or industry positions in AI/ML for sustainability.
+
+### **Q: Is financial support available?**
+A: Yes, we offer stipends for research internships and JRF positions. Details are provided during the application process.
+
+---
+
+*Ready to join our mission of using AI for sustainability? We look forward to welcoming you to our research community!*

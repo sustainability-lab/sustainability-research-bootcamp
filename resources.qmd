@@ -1,0 +1,205 @@
+---
+title: "Resources"
+subtitle: "Materials, Tools, and References"
+---
+
+## 📚 **Course Materials**
+
+### Primary Courses
+::::{.grid}
+
+:::{.g-col-12 .g-col-md-4}
+#### ES 114 PSDV
+**Probability, Statistics and Data Visualization**
+- [Course Website](https://nipunbatra.github.io/psdv25/)
+- [YouTube Playlist](https://www.youtube.com/watch?v=CAzR00au0T0&list=PLftoLyLEwECCTFpc8_-gV8NqG_LgdL3Uy)
+- [Jupyter Notebooks](https://nipunbatra.github.io/psdv-teaching/notebooks.html)
+:::
+
+:::{.g-col-12 .g-col-md-4}
+#### ES 335 ML
+**Machine Learning**
+- [Course Website](https://nipunbatra.github.io/ml2024/)
+- [YouTube Playlist](https://www.youtube.com/playlist?list=PLftoLyLEwECDqanAL7LkZNnZG9VdNCiJF)
+- [PDF Slides](https://nipunbatra.github.io/ml-teaching/slides/)
+:::
+
+:::{.g-col-12 .g-col-md-4}
+#### CS Research Bootcamp
+**Research Methods**
+- [GitHub Repository](https://github.com/nipunbatra/CS-Research-Methods-Bootcamp)
+- Video recordings available
+- 4 comprehensive sessions
+:::
+
+::::
+
+## 🎥 **Video Resources**
+
+### Python Fundamentals
+- [NumPy Introduction](https://www.youtube.com/watch?v=CAzR00au0T0) - PSDV25 Lecture 1
+- [Broadcasting Concepts](https://www.youtube.com/watch?v=oG1t3qlzq14) - Advanced NumPy
+- [Pandas Fundamentals](https://www.youtube.com/watch?v=iaQDhwFkAhA) - PSDV25 Lecture 3
+- [Matplotlib Basics](https://www.youtube.com/watch?v=ERu46g5EzVk) - PSDV25 Lecture 4
+- [Jupyter Widgets](https://www.youtube.com/watch?v=BJAaZaKxf00) - Interactive plotting
+
+### Machine Learning
+- [ML Course Playlist](https://www.youtube.com/playlist?list=PLftoLyLEwECDqanAL7LkZNnZG9VdNCiJF) - Complete ML course
+- Individual lecture videos for each topic
+- Guest lectures and advanced topics
+
+### Development Tools
+- [Git Tutorial](https://www.youtube.com/watch?v=tRZGeaHPoaw) - Kevin Stratvert
+- [GitHub Skills](https://github.com/skills) - Interactive tutorials
+
+## 📖 **Textbooks & References**
+
+### Essential Reading
+1. **[Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)** - Jake VanderPlas
+   - Free online version available
+   - Covers NumPy, Pandas, Matplotlib, Scikit-learn
+
+2. **[An Introduction to Statistical Learning](https://www.statlearning.com/)** - James, Witten, Hastie, Tibshirani
+   - Free PDF available
+   - R and Python code examples
+
+3. **[Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)** - Christopher Bishop
+   - Advanced mathematical treatment
+   - Comprehensive coverage of ML topics
+
+### Additional Resources
+4. **[Introduction to Probability for Data Science](https://probability4datascience.com/)** - Stanley Chan
+5. **[Computational and Inferential Thinking](https://inferentialthinking.com/)** - Adhikari et al.
+6. **[Mathematics for Machine Learning](https://mml-book.github.io/)** - Deisenroth et al.
+
+## 💻 **Interactive Labs**
+
+### Google Colab Notebooks
+- [NumPy Practice](https://colab.research.google.com/drive/169vg_FV35sJ8irVXU82RrTwlR762Ph2g) - Hands-on exercises
+- [Pandas Practice](https://colab.research.google.com/drive/1pmt8hSfwzhp8ke3uXsGrOt4XELdoTmr1) - Data manipulation
+
+### Course Notebooks
+- [PSDV Teaching Notebooks](https://nipunbatra.github.io/psdv-teaching/notebooks.html) - 23 interactive notebooks
+- [ML Teaching Notebooks](https://nipunbatra.github.io/ml-teaching/notebooks.html) - 44 ML + 14 tutorial notebooks
+
+## 🛠️ **Tools & Software**
+
+### Development Environment
+```bash
+# Essential Python packages
+conda install numpy pandas matplotlib seaborn scikit-learn
+conda install pytorch torchvision -c pytorch
+conda install jupyter jupyterlab
+```
+
+### Additional Tools
+- **VS Code** - Primary development environment
+- **Git** - Version control
+- **Overleaf** - LaTeX editing
+- **GitHub** - Code collaboration
+
+### Lab Infrastructure
+- **Ramanujan** - 4x NVIDIA A100 GPUs (80GB each)
+- **Bhaskar** - 2x NVIDIA RTX A5000 GPUs (24GB each)  
+- **Sustain** - 2x NVIDIA RTX A4000 GPUs (16GB each)
+
+## 📊 **Datasets**
+
+### Sustainability Datasets Used
+1. **Building Energy Consumption**
+   - Synthetic dataset for learning
+   - Real building data for projects
+
+2. **Delhi Air Quality Data**
+   - PM2.5, PM10, temperature, humidity
+   - Hourly measurements over multiple years
+
+3. **Smart City Sensors**
+   - Multi-modal sensor fusion
+   - Traffic, air quality, weather
+
+4. **Solar Panel Output**
+   - Weather correlation analysis
+   - Renewable energy forecasting
+
+5. **Indoor Air Quality**
+   - Health risk classification
+   - Multi-class prediction problems
+
+### Data Sources
+- [Sustainability Lab Projects](https://sustainability-lab.github.io/) - Real research data
+- Course-specific datasets created for learning
+- Public environmental datasets
+
+## 🔗 **Online Courses**
+
+### Recommended MOOCs
+1. **[Machine Learning Course](https://www.coursera.org/learn/machine-learning)** - Andrew Ng (Coursera)
+2. **[Practical Deep Learning](https://course.fast.ai/)** - Fast.ai
+3. **[NPTEL Machine Learning](https://nptel.ac.in/courses/106106139)** - Balaram Ravindran
+4. **[Statistics and Probability](https://www.khanacademy.org/math/statistics-probability)** - Khan Academy
+
+### Programming Skills
+1. **[Python Programming](https://realpython.com/)** - Real Python tutorials
+2. **[100 NumPy Exercises](https://github.com/rougier/numpy-100)** - Practice problems
+3. **[GitHub Skills](https://skills.github.com/)** - Learn Git and GitHub
+
+## 📝 **Writing & Communication**
+
+### LaTeX Resources
+- [Overleaf Learn LaTeX](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes) - 30-minute tutorial
+- [LaTeX Wikibook](https://en.wikibooks.org/wiki/LaTeX) - Comprehensive guide
+- [IEEE Templates](https://template-selector.ieee.org/) - Conference paper formats
+
+### Scientific Writing
+- [Lab Handbook](https://sustainability-lab.github.io/) - Writing guidelines
+- Research paper examples from lab publications
+- Abstract writing workshops
+
+## 🎯 **Assessment Resources**
+
+### Practice Problems
+- **40 Python Challenge Questions** (Day 3)
+- Daily coding exercises
+- Mini-project templates
+
+### Project Ideas
+- Energy consumption forecasting
+- Air quality prediction
+- Sustainability chatbots
+- Environmental monitoring systems
+
+## 🌐 **Community & Support**
+
+### Lab Resources
+- **[Sustainability Lab](https://sustainability-lab.github.io/)** - Main lab website
+- **Lab Slack** - Daily communication and support
+- **Office Hours** - Regular Q&A sessions
+
+### External Communities
+- **Stack Overflow** - Programming help
+- **Reddit r/MachineLearning** - ML discussions
+- **Kaggle** - Competitions and datasets
+- **GitHub** - Code sharing and collaboration
+
+## 📬 **Contact & Support**
+
+### Primary Contact
+**Sustainability Lab, IIT Gandhinagar**
+- Email: nipun.batra@iitgn.ac.in
+- Website: https://sustainability-lab.github.io/
+
+### Technical Support
+- **Computational Resources**: raviraj.s@iitgn.ac.in
+- **Course Materials**: Available on respective course websites
+- **Lab Access**: Contact lab coordinator
+
+### Getting Help
+1. **Daily Issues**: Lab Slack workspace
+2. **Technical Problems**: GitHub Issues on course repositories
+3. **Academic Questions**: Office hours and email
+4. **Research Guidance**: Lab meetings and individual consultations
+
+---
+
+*All resources are regularly updated to reflect the latest tools and best practices in machine learning and sustainability research.*

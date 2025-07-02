@@ -1,0 +1,198 @@
+/*-- scss:defaults --*/
+
+// Colors
+$primary: #2E8B57 !default;          // Sea Green
+$secondary: #4682B4 !default;        // Steel Blue  
+$success: #228B22 !default;          // Forest Green
+$info: #20B2AA !default;             // Light Sea Green
+$warning: #DAA520 !default;          // Goldenrod
+$danger: #DC143C !default;           // Crimson
+$light: #F8F9FA !default;
+$dark: #343A40 !default;
+
+// Sustainability color palette
+$green-primary: #2E8B57;
+$green-secondary: #228B22;
+$blue-accent: #4682B4;
+$earth-brown: #8B4513;
+$leaf-green: #90EE90;
+
+// Typography
+$font-family-sans-serif: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif !default;
+$font-family-monospace: "Source Code Pro", "Monaco", "Consolas", monospace !default;
+$headings-font-family: "Source Sans Pro", sans-serif !default;
+$headings-font-weight: 600 !default;
+
+/*-- scss:rules --*/
+
+// Hero banner styling
+.hero-banner {
+  background: linear-gradient(135deg, $green-primary 0%, $blue-accent 100%);
+  color: white;
+  padding: 4rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  }
+  
+  p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    opacity: 0.95;
+  }
+  
+  .btn {
+    margin: 0.5rem;
+    padding: 0.75rem 2rem;
+    font-weight: 600;
+    border-radius: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+}
+
+// Grid improvements
+.grid {
+  .g-col-12.g-col-md-4,
+  .g-col-12.g-col-md-6,
+  .g-col-12.g-col-md-3 {
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    
+    h3 {
+      color: $green-primary;
+      border-bottom: 2px solid $green-primary;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+// Cards and content boxes
+.content-box {
+  background: $light;
+  border-left: 4px solid $green-primary;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+// Code blocks
+pre {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+code {
+  background: #f8f9fa;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+// Tables
+table {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+thead th {
+  background: $green-primary;
+  color: white;
+  font-weight: 600;
+}
+
+// Navigation
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+// Buttons
+.btn-primary {
+  background: linear-gradient(135deg, $green-primary 0%, $green-secondary 100%);
+  border: none;
+  
+  &:hover {
+    background: linear-gradient(135deg, $green-secondary 0%, $green-primary 100%);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+}
+
+.btn-outline-secondary {
+  border-color: $green-primary;
+  color: $green-primary;
+  
+  &:hover {
+    background: $green-primary;
+    border-color: $green-primary;
+  }
+}
+
+// Assessment sections
+.assessment-box {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border: 2px solid $blue-accent;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 2rem 0;
+  
+  h3 {
+    color: $blue-accent;
+    margin-bottom: 1rem;
+  }
+}
+
+// Exercise sections  
+.exercise-section {
+  background: #f0fff0;
+  border-left: 4px solid $success;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 0 6px 6px 0;
+}
+
+// Day headers
+.day-header {
+  background: linear-gradient(135deg, $green-primary 0%, $blue-accent 100%);
+  color: white;
+  padding: 2rem;
+  margin: 2rem 0 1rem 0;
+  border-radius: 8px;
+  
+  h2 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  p {
+    margin: 0.5rem 0 0 0;
+    opacity: 0.9;
+    font-size: 1.2rem;
+  }
+}
+
+// Responsive design
+@media (max-width: 768px) {
+  .hero-banner {
+    padding: 2rem 1rem;
+    
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  
+  .grid .g-col-12 {
+    padding: 1rem;
+  }
+}

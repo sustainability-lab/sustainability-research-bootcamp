@@ -1,0 +1,675 @@
+---
+title: "Complete Program"
+subtitle: "10-Day Sustainability Research Bootcamp"
+format:
+  html:
+    toc: true
+    toc-depth: 4
+---
+
+This intensive 10-day program prepares interns with essential ML fundamentals, practical skills, and research methods. Each day combines lectures from established courses with hands-on exercises and assessments using real datasets.
+
+**Target Audience:** Summer interns, 6-month interns, JRFs, and prospective lab members  
+**Prerequisites:** Basic Python programming knowledge  
+**Format:** Daily 4-5 hour sessions with lectures, practice, and assessment  
+
+---
+
+## 📚 **Day 1: NumPy Fundamentals**
+*Array Computing for Data Science*
+
+### 🎥 **Lecture Materials**
+- **Video:** [Introduction to NumPy](https://www.youtube.com/watch?v=CAzR00au0T0) (PSDV25 Lecture 1)
+- **Notebook:** [NumPy Introduction](https://nipunbatra.github.io/psdv-teaching/notebooks/intro-numpy.html)
+- **Additional:** [Broadcasting Concepts](https://www.youtube.com/watch?v=oG1t3qlzq14)
+- **Lab:** [Google Colab NumPy Practice](https://colab.research.google.com/drive/169vg_FV35sJ8irVXU82RrTwlR762Ph2g)
+
+### 🎯 **Learning Objectives**
+- Master NumPy array operations and indexing
+- Understand broadcasting and vectorization
+- Apply NumPy to mathematical computations
+
+### 📝 **Daily Exercises**
+
+#### **Exercise 1A: Array Fundamentals (30 minutes)**
+1. Create arrays using different methods (zeros, ones, arange, linspace)
+2. Practice array indexing and slicing
+3. Reshape and transpose operations
+4. Array concatenation and splitting
+
+#### **Exercise 1B: Mathematical Operations (45 minutes)**
+1. Element-wise operations vs matrix operations
+2. Statistical functions (mean, std, min, max)
+3. Sorting and searching in arrays
+4. Random number generation and seeding
+
+#### **Exercise 1C: Broadcasting Practice (30 minutes)**
+1. Add scalar to array
+2. Operations between arrays of different shapes
+3. Create meshgrids for plotting
+4. Normalize arrays using broadcasting
+
+### 🏆 **Daily Assessment: Energy Data Analysis (60 minutes)**
+**Dataset:** Building energy consumption data (synthetic)
+**Tasks:**
+1. Load and clean energy consumption data for 100 buildings
+2. Calculate daily, weekly, monthly statistics
+3. Find buildings with highest/lowest consumption
+4. Create normalized consumption per square foot
+5. Identify consumption patterns using array operations
+
+**Deliverable:** Jupyter notebook with clean code and insights
+
+---
+
+## 📊 **Day 2: Pandas & Matplotlib**
+*Data Manipulation and Visualization*
+
+### 🎥 **Lecture Materials**
+- **Video 1:** [Introduction to Pandas](https://www.youtube.com/watch?v=iaQDhwFkAhA) (PSDV25 Lecture 3)
+- **Video 2:** [Introduction to Matplotlib](https://www.youtube.com/watch?v=ERu46g5EzVk) (PSDV25 Lecture 4)
+- **Notebook 1:** [Pandas Fundamentals](https://nipunbatra.github.io/psdv-teaching/notebooks/introduction-pandas.html)
+- **Notebook 2:** [Matplotlib Basics](https://nipunbatra.github.io/psdv-teaching/notebooks/introduction-matplotlib.html)
+- **Lab:** [Google Colab Pandas Practice](https://colab.research.google.com/drive/1pmt8hSfwzhp8ke3uXsGrOt4XELdoTmr1)
+
+### 🎯 **Learning Objectives**
+- Master DataFrame operations and data cleaning
+- Create professional visualizations
+- Combine data from multiple sources
+
+### 📝 **Daily Exercises**
+
+#### **Exercise 2A: DataFrame Operations (45 minutes)**
+1. Load CSV data and inspect structure
+2. Handle missing values (dropna, fillna, interpolate)
+3. Filter and query operations
+4. Group by operations and aggregations
+5. Merge and join different datasets
+
+#### **Exercise 2B: Data Cleaning Pipeline (45 minutes)**
+1. Remove duplicates and outliers
+2. Convert data types appropriately
+3. Create derived columns
+4. Handle datetime data
+5. Export cleaned data
+
+#### **Exercise 2C: Visualization Mastery (60 minutes)**
+1. Line plots with multiple series
+2. Scatter plots with color coding
+3. Histograms and distribution plots
+4. Subplots and figure customization
+5. Save high-quality figures
+
+### 🏆 **Daily Assessment: Air Quality Analysis (90 minutes)**
+**Dataset:** Delhi air quality data (PM2.5, PM10, temperature, humidity)
+**Tasks:**
+1. Load and clean 1 year of hourly air quality data
+2. Handle missing values and outliers
+3. Create time-based features (hour, day, month)
+4. Calculate daily and monthly averages
+5. Create visualizations:
+   - Time series of PM2.5 levels
+   - Correlation heatmap of pollutants
+   - Distribution plots by season
+   - Hourly patterns visualization
+6. Write data quality report
+
+**Deliverable:** Clean dataset + comprehensive EDA notebook
+
+---
+
+## 🤖 **Day 3: Python Mastery Assessment**
+*Comprehensive Skills Evaluation*
+
+### 📚 **Review Materials**
+- Consolidate learning from Days 1-2
+- Python Data Science Handbook (Chapters 1-4)
+
+### 🧪 **40 Challenge Questions (180 minutes)**
+
+#### **NumPy Section (Questions 1-15)**
+1. Create a 3D array (5×4×3) filled with random integers from 1-100
+2. Find all elements greater than 50 and replace with their square root
+3. Compute the covariance matrix for a 2D dataset
+4. Implement matrix multiplication without using np.dot()
+5. Create a function to normalize arrays to 0-1 range
+6. Find the indices of the maximum value in each row of a 2D array
+7. Create a moving average function using array slicing
+8. Solve a system of linear equations using NumPy
+9. Create a function to compute pairwise distances between points
+10. Implement k-means centroid update using broadcasting
+11. Create a 2D Gaussian kernel for image filtering
+12. Find connected components in a binary image (0s and 1s)
+13. Implement efficient computation of Euclidean distance matrix
+14. Create a function to remove outliers using z-score
+15. Compute eigenvalues and eigenvectors for PCA implementation
+
+#### **Pandas Section (Questions 16-30)**
+16. Load multiple CSV files and combine them efficiently
+17. Create a function to detect and handle different types of missing data
+18. Implement time-based resampling for irregular time series
+19. Create a pivot table with multiple aggregation functions
+20. Implement efficient groupby operations on large datasets
+21. Create a function to standardize column names
+22. Merge datasets with different time zones
+23. Implement outlier detection using IQR method
+24. Create a function to generate summary statistics report
+25. Handle categorical data encoding efficiently
+26. Implement sliding window operations on time series
+27. Create a function to validate data quality
+28. Implement efficient data type optimization
+29. Create custom aggregation functions for groupby
+30. Handle hierarchical/multi-index DataFrames
+
+#### **Matplotlib Section (Questions 31-40)**
+31. Create a publication-ready figure with subplots
+32. Implement interactive plots with widgets
+33. Create custom colormaps for scientific data
+34. Design a dashboard-style multi-panel figure
+35. Create animations for time series data
+36. Implement error bars and confidence intervals
+37. Create geographic plots using basemap principles
+38. Design custom plot styles and themes
+39. Create 3D visualizations for scientific data
+40. Implement plot export pipeline for publications
+
+### 🏆 **Daily Assessment: Integrated Analysis Project (120 minutes)**
+**Dataset:** Smart city sensor data (temperature, humidity, air quality, traffic)
+**Challenge:** Create an automated analysis pipeline that:
+1. Loads and validates multiple data sources
+2. Performs comprehensive data cleaning
+3. Creates an automated report with 8+ visualizations
+4. Implements statistical tests for data quality
+5. Generates actionable insights for city planners
+
+**Evaluation Criteria:**
+- Code quality and efficiency (30%)
+- Data cleaning thoroughness (25%)
+- Visualization quality (25%)
+- Insights and interpretability (20%)
+
+---
+
+## 🎓 **Day 4: Machine Learning Introduction**
+*Foundations of Supervised Learning*
+
+### 🎥 **Lecture Materials**
+- **Video:** [ML Course Playlist](https://www.youtube.com/playlist?list=PLftoLyLEwECDqanAL7LkZNnZG9VdNCiJF) - Introduction lectures
+- **PDF:** [Introduction to ML](https://nipunbatra.github.io/ml-teaching/slides/1-introduction-ml.pdf)
+- **Notebooks:** [ML Teaching Collection](https://nipunbatra.github.io/ml-teaching/notebooks.html) - Intro sections
+
+### 🎯 **Learning Objectives**
+- Understand supervised vs unsupervised learning
+- Master the ML workflow and evaluation
+- Implement basic algorithms from scratch
+
+### 📝 **Daily Exercises**
+
+#### **Exercise 4A: ML Workflow (60 minutes)**
+1. Implement train-validation-test splits
+2. Create cross-validation from scratch
+3. Implement basic performance metrics
+4. Practice bias-variance tradeoff concepts
+5. Create learning curves
+
+#### **Exercise 4B: Linear Regression Deep Dive (75 minutes)**
+**PDF:** [Linear Regression Slides](https://nipunbatra.github.io/ml-teaching/slides/linear-regression.pdf)
+1. Implement linear regression using normal equation
+2. Add regularization (Ridge and Lasso)
+3. **PDF:** [Ridge Regression](https://nipunbatra.github.io/ml-teaching/slides/ridge-regression.pdf)
+4. **PDF:** [Lasso Regression](https://nipunbatra.github.io/ml-teaching/slides/lasso-regression.pdf)
+5. Compare with scikit-learn implementation
+6. Analyze residuals and model assumptions
+
+#### **Exercise 4C: Classification Fundamentals (60 minutes)**
+**PDF:** [Logistic Regression](https://nipunbatra.github.io/ml-teaching/slides/logistic-1.pdf)
+1. Implement logistic regression from scratch
+2. Compare with notebook: [Logistic Regression Implementation](https://nipunbatra.github.io/psdv-teaching/notebooks/logistic-regression-generative.html)
+3. Create confusion matrices and ROC curves
+4. Practice precision, recall, F1-score calculations
+
+### 🏆 **Daily Assessment: Renewable Energy Prediction (90 minutes)**
+**Dataset:** Solar panel energy output prediction
+**Tasks:**
+1. Predict hourly energy output using weather data
+2. Compare linear regression, ridge, and lasso performance
+3. Implement feature engineering for time-based patterns
+4. Create model evaluation report with visualizations
+5. Interpret coefficients for domain insights
+
+**Bonus:** Implement gradient descent from scratch for linear regression
+
+---
+
+## 🌳 **Day 5: Tree-Based Methods**
+*Non-Linear Models and Ensemble Learning*
+
+### 🎥 **Lecture Materials**
+- **PDF:** [Decision Trees](https://nipunbatra.github.io/ml-teaching/slides/decision-trees.pdf)
+- **PDF:** [Ensemble Methods](https://nipunbatra.github.io/ml-teaching/slides/ensemble.pdf)
+- **PDF:** [K-Nearest Neighbors](https://nipunbatra.github.io/ml-teaching/slides/knn.pdf)
+
+### 🎯 **Learning Objectives**
+- Master decision tree algorithms
+- Understand ensemble methods
+- Apply to complex real-world problems
+
+### 📝 **Daily Exercises**
+
+#### **Exercise 5A: Decision Tree Implementation (90 minutes)**
+1. Build decision tree from scratch using Gini impurity
+2. Implement tree pruning techniques
+3. Visualize decision boundaries
+4. Compare with scikit-learn implementation
+5. Analyze tree depth vs performance
+
+#### **Exercise 5B: Ensemble Methods (75 minutes)**
+1. Implement Random Forest from scratch
+2. Create bagging and boosting examples
+3. Compare individual trees vs ensemble performance
+4. Feature importance analysis
+5. Out-of-bag error calculation
+
+#### **Exercise 5C: K-Nearest Neighbors (45 minutes)**
+1. Implement KNN for classification and regression
+2. Experiment with different distance metrics
+3. Analyze curse of dimensionality
+4. Implement efficient neighbor search
+
+### 🏆 **Daily Assessment: Indoor Air Quality Classification (120 minutes)**
+**Dataset:** Indoor air quality measurements with health risk labels
+**Challenge:**
+1. Build multi-class classifier for air quality risk levels
+2. Compare decision tree, random forest, and KNN performance
+3. Implement feature selection using tree-based importance
+4. Create model interpretation dashboard
+5. Handle imbalanced classes appropriately
+6. Deploy model using simple API structure
+
+**Evaluation:** Model performance + interpretability + deployment readiness
+
+---
+
+## 🔥 **Day 6: Neural Networks & PyTorch**
+*Introduction to Deep Learning*
+
+### 🎥 **Lecture Materials**
+- **PDF:** [Multilayer Perceptron](https://nipunbatra.github.io/ml-teaching/slides/mlp.pdf)
+- **PDF:** [Gradient Descent](https://nipunbatra.github.io/ml-teaching/slides/gradient-descent.pdf)
+- **PDF:** [Stochastic Gradient Descent](https://nipunbatra.github.io/ml-teaching/slides/SGD.pdf)
+- **Notebook:** [PyTorch Logistic Regression](https://nipunbatra.github.io/psdv-teaching/notebooks/logistic-regression-generative.html)
+
+### 🎯 **Learning Objectives**
+- Understand neural network fundamentals
+- Master PyTorch for deep learning
+- Implement backpropagation from scratch
+
+### 📝 **Daily Exercises**
+
+#### **Exercise 6A: Neural Network from Scratch (90 minutes)**
+1. Implement forward pass for multi-layer perceptron
+2. Code backpropagation algorithm step by step
+3. Add different activation functions (sigmoid, ReLU, tanh)
+4. Implement mini-batch gradient descent
+5. Compare with analytical solutions
+
+#### **Exercise 6B: PyTorch Mastery (75 minutes)**
+1. Recreate Day 6A network using PyTorch
+2. Implement custom loss functions
+3. Create data loaders for batch processing
+4. Add regularization (dropout, weight decay)
+5. Implement learning rate scheduling
+
+#### **Exercise 6C: CNN Introduction (60 minutes)**
+**PDF:** [Convolutional Neural Networks](https://nipunbatra.github.io/ml-teaching/slides/CNN.pdf)
+1. Build simple CNN for image classification
+2. Understand convolution and pooling operations
+3. Practice with 1D CNN for time series
+4. **PDF:** [1D CNN](https://nipunbatra.github.io/ml-teaching/slides/1d-cnn.pdf)
+
+### 🏆 **Daily Assessment: Energy Consumption Forecasting (120 minutes)**
+**Dataset:** Multi-building energy consumption time series
+**Tasks:**
+1. Build neural network for energy forecasting
+2. Compare MLP vs 1D CNN performance
+3. Implement sequence-to-sequence prediction
+4. Add attention mechanisms for interpretability
+5. Create real-time prediction dashboard
+6. Analyze model predictions vs actual consumption
+
+**Bonus:** Implement transformer architecture for time series
+
+---
+
+## 🔧 **Day 7: Version Control & Collaboration**
+*Git, GitHub, and Development Workflow*
+
+### 📚 **Learning Materials**
+- **Tutorial:** [GitHub Skills Course](https://github.com/skills)
+- **Video:** [Git Tutorial by Kevin Stratvert](https://www.youtube.com/watch?v=tRZGeaHPoaw)
+- **Resource:** Lab Handbook - Academic & Research Skills section
+
+### 🎯 **Learning Objectives**
+- Master Git version control
+- Understand collaborative development
+- Apply to ML project workflows
+
+### 📝 **Daily Exercises**
+
+#### **Exercise 7A: Git Fundamentals (60 minutes)**
+1. Initialize repository and make commits
+2. Practice branching and merging strategies
+3. Handle merge conflicts effectively
+4. Use git log, diff, and status commands
+5. Create and apply patches
+
+#### **Exercise 7B: GitHub Collaboration (75 minutes)**
+1. Fork repository and create pull requests
+2. Practice code review process
+3. Use GitHub Issues for project management
+4. Create project documentation with README
+5. Set up GitHub Pages for project showcase
+
+#### **Exercise 7C: ML Project Structure (60 minutes)**
+1. Organize ML projects with proper structure
+2. Use .gitignore for ML artifacts
+3. Version control datasets and models
+4. Create reproducible environments
+5. Document experiments and results
+
+### 🏆 **Daily Assessment: Collaborative ML Project (150 minutes)**
+**Challenge:** Work in teams of 2-3 to:
+1. Choose a sustainability dataset from previous days
+2. Create shared GitHub repository with proper structure
+3. Each member implements different ML algorithm
+4. Use branches for development, merge via pull requests
+5. Create comprehensive documentation
+6. Set up automated testing for code quality
+7. Deploy final model with GitHub Actions
+
+**Evaluation:** Git usage + collaboration quality + final project
+
+---
+
+## 📝 **Day 8: Scientific Writing & LaTeX**
+*Academic Communication and Documentation*
+
+### 📚 **Learning Materials**
+- **Resource:** [LaTeX Tutorial on Overleaf](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)
+- **Guide:** Lab Handbook - Technical Writing section
+- **Examples:** Sustainability Lab publications for reference
+
+### 🎯 **Learning Objectives**
+- Master LaTeX for academic writing
+- Understand scientific paper structure
+- Create publication-ready documents
+
+### 📝 **Daily Exercises**
+
+#### **Exercise 8A: LaTeX Fundamentals (75 minutes)**
+1. Set up Overleaf account and create first document
+2. Learn document structure and basic formatting
+3. Create mathematical equations and formulas
+4. Insert figures, tables, and references
+5. Use bibliography management with BibTeX
+
+#### **Exercise 8B: Scientific Figure Creation (60 minutes)**
+1. Export high-quality figures from matplotlib
+2. Create publication-ready plots with proper captions
+3. Design tables for experimental results
+4. Learn IEEE/ACM formatting standards
+5. Practice figure referencing in text
+
+#### **Exercise 8C: Paper Structure (60 minutes)**
+1. Analyze structure of top-tier ML papers
+2. Write effective abstracts and introductions
+3. Create methodology sections with equations
+4. Present experimental results clearly
+5. Write conclusions and future work
+
+### 🏆 **Daily Assessment: Research Paper Draft (120 minutes)**
+**Task:** Write a 4-page research paper on your Day 6 neural network project
+**Required Sections:**
+1. Abstract (150 words)
+2. Introduction with literature review
+3. Methodology with mathematical formulation
+4. Experimental results with tables and figures
+5. Conclusion and future work
+6. Properly formatted references
+
+**Evaluation:** Writing clarity + technical accuracy + LaTeX formatting
+
+---
+
+## 🎓 **Day 9: Research Methods Bootcamp**
+*Scientific Thinking and Research Skills*
+
+### 📚 **Learning Materials**
+- **Primary Resource:** [CS Research Methods Bootcamp](https://github.com/nipunbatra/CS-Research-Methods-Bootcamp)
+- **Video:** Bootcamp session recordings
+- **Lab Resource:** Academic & Research Skills from handbook
+
+### 🎯 **Learning Objectives**
+- Develop scientific thinking skills
+- Master research communication
+- Learn systematic problem-solving
+
+### 📝 **Daily Exercises**
+
+#### **Exercise 9A: Email Communication (45 minutes)**
+**Based on Bootcamp Session 1**
+1. Write professional email to potential research advisor
+2. Compose progress report email to supervisor
+3. Request help from external researcher professionally
+4. Practice concise and clear communication
+5. Learn email etiquette for academia
+
+#### **Exercise 9B: Abstract Analysis (60 minutes)**
+**Based on Bootcamp Session 2**
+1. Analyze 5 abstracts from top ML conferences
+2. Identify key components of effective abstracts
+3. Rewrite weak abstracts to improve clarity
+4. Practice identifying scientific flaws in papers
+5. Create abstract for your own research idea
+
+#### **Exercise 9C: Scientific Method Application (75 minutes)**
+**Based on Bootcamp Session 3**
+1. Formulate testable hypotheses for ML problems
+2. Design controlled experiments
+3. Identify potential confounding variables
+4. Practice systematic observation and data collection
+5. Apply statistical hypothesis testing
+
+#### **Exercise 9D: Debugging Mastery (45 minutes)**
+**Based on Bootcamp Session 4**
+1. Analyze effective StackOverflow questions
+2. Practice systematic debugging approaches
+3. Create minimal reproducible examples
+4. Learn to ask precise technical questions
+5. Develop problem isolation skills
+
+### 🏆 **Daily Assessment: Research Proposal (120 minutes)**
+**Challenge:** Create a complete research proposal including:
+1. Problem statement with motivation
+2. Literature review (10+ papers)
+3. Research methodology and experimental design
+4. Timeline and resource requirements
+5. Expected contributions and impact
+6. Potential challenges and mitigation strategies
+
+**Presentation:** 15-minute presentation + 10-minute Q&A
+**Evaluation:** Scientific rigor + presentation quality + feasibility
+
+---
+
+## 🚀 **Day 10: Integration & Lab Projects**
+*Connecting Skills to Research Impact*
+
+### 📚 **Learning Materials**
+- **Lab Website:** [Sustainability Lab Projects](https://sustainability-lab.github.io/)
+- **Research Papers:** Recent lab publications
+- **Resources:** Lab handbook and current project overviews
+
+### 🎯 **Learning Objectives**
+- Connect ML skills to sustainability applications
+- Understand lab research domains
+- Design internship project proposal
+
+### 📝 **Daily Exercises**
+
+#### **Exercise 10A: Lab Project Deep Dive (90 minutes)**
+1. **JoulesEye Analysis:** Understand energy expenditure estimation using thermal imagery
+2. **SpiroMask Study:** Explore respiratory monitoring through smart face masks
+3. **VayuBuddy Exploration:** Analyze AI-powered air quality chatbot
+4. **Space to Policy:** Investigate satellite imagery for environmental compliance
+5. Choose one project and analyze technical approach in detail
+
+#### **Exercise 10B: Research Gap Identification (60 minutes)**
+1. Read 3 recent papers from chosen lab research area
+2. Identify current limitations and challenges
+3. Propose novel extensions using learned ML techniques
+4. Consider practical implementation challenges
+5. Assess potential societal impact
+
+#### **Exercise 10C: Technical Implementation Planning (75 minutes)**
+1. Design ML pipeline for chosen problem
+2. Identify required datasets and collection methods
+3. Select appropriate algorithms and evaluation metrics
+4. Plan computational resource requirements
+5. Create timeline with milestones
+
+### 🏆 **Final Assessment: Internship Project Proposal (180 minutes)**
+
+#### **Phase 1: Proposal Development (120 minutes)**
+Create comprehensive project proposal including:
+1. **Problem Statement** (500 words)
+   - Sustainability challenge being addressed
+   - Current approaches and limitations
+   - Proposed ML solution overview
+
+2. **Technical Approach** (800 words)
+   - Detailed methodology with equations
+   - Dataset requirements and collection plan
+   - ML algorithms and architectures
+   - Evaluation metrics and baselines
+
+3. **Implementation Plan** (400 words)
+   - 6-month timeline with deliverables
+   - Computational resource requirements
+   - Risk assessment and mitigation strategies
+
+4. **Expected Impact** (300 words)
+   - Scientific contributions
+   - Practical applications
+   - Societal benefits
+
+#### **Phase 2: Final Presentation (30 minutes)**
+- **Presentation:** 20 minutes + 10 minutes Q&A
+- **Audience:** Lab members, instructors, and peers
+- **Evaluation Criteria:**
+  - Technical soundness (30%)
+  - Innovation and creativity (25%)
+  - Feasibility and planning (25%)
+  - Presentation quality (20%)
+
+#### **Phase 3: Peer Review (30 minutes)**
+- Review and provide feedback on 2 other proposals
+- Practice constructive scientific criticism
+- Learn from diverse approaches and ideas
+
+---
+
+## 📊 **Assessment Framework**
+
+### Daily Assessments (70% of total score)
+- **Knowledge Application:** Coding challenges and implementations (40%)
+- **Project Work:** Daily mini-projects with real datasets (20%)
+- **Research Skills:** Writing, communication, and analysis (10%)
+
+### Final Assessment (30% of total score)
+- **Capstone Project:** Comprehensive internship proposal (20%)
+- **Presentation:** Communication and defense of ideas (10%)
+
+### Grading Scale
+- **Outstanding (95-100%):** Exceptional preparation, ready for independent research
+- **Excellent (90-94%):** Strong foundation, ready for advanced projects
+- **Good (80-89%):** Solid preparation, ready for guided research
+- **Satisfactory (70-79%):** Adequate foundation, needs continued mentorship
+- **Needs Improvement (<70%):** Additional preparation required
+
+---
+
+## 💻 **Technical Requirements**
+
+### Software Stack
+- **Python 3.8+** with Anaconda distribution
+- **Core Libraries:** NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn
+- **Deep Learning:** PyTorch (primary), TensorFlow (optional)
+- **Development:** Jupyter Lab, VS Code, Git
+- **Documentation:** LaTeX (Overleaf), Markdown
+- **Collaboration:** Git, GitHub, Slack
+
+### Hardware Access
+- **Personal Setup:** Laptop with minimum 8GB RAM, 256GB storage
+- **Lab Resources:** Access to computational servers (Ramanujan, Bhaskar, Sustain)
+- **Accounts:** GitHub, Overleaf, Google Colab
+
+### Datasets Used Throughout Program
+1. **Building Energy Consumption:** Time series forecasting
+2. **Delhi Air Quality:** Environmental data analysis
+3. **Smart City Sensors:** Multi-modal sensor fusion
+4. **Solar Panel Output:** Renewable energy prediction
+5. **Indoor Air Quality:** Health risk classification
+6. **Sustainability Research Papers:** Text analysis and NLP
+
+---
+
+## 📚 **Extended Resources**
+
+### Primary Textbooks
+1. **Python Data Science Handbook** - Jake VanderPlas
+2. **An Introduction to Statistical Learning** - James, Witten, Hastie, Tibshirani
+3. **Pattern Recognition and Machine Learning** - Christopher Bishop
+
+### Online Courses (Optional)
+1. **NPTEL Machine Learning** - Balaram Ravindran
+2. **Andrew Ng's ML Course** - Coursera
+3. **Fast.ai Practical Deep Learning**
+
+### Lab-Specific Resources
+- **Sustainability Lab Publications:** Latest research papers
+- **Computational Infrastructure:** Server access and usage guidelines
+- **Lab Culture Guide:** Expectations and best practices
+
+---
+
+## 🎯 **Success Outcomes**
+
+### Technical Competencies
+Participants will be able to:
+- ✅ Implement complete ML pipelines from data to deployment
+- ✅ Apply appropriate algorithms for sustainability problems
+- ✅ Conduct rigorous experimental evaluation
+- ✅ Communicate findings through papers and presentations
+- ✅ Collaborate effectively using modern development tools
+
+### Research Readiness
+- **Independent Work:** Execute research projects with minimal supervision
+- **Critical Thinking:** Evaluate and improve existing approaches
+- **Innovation:** Propose novel solutions to sustainability challenges
+- **Communication:** Present work at conferences and in publications
+
+### Lab Integration
+- **Culture Fit:** Understand lab values and working style
+- **Technical Skills:** Ready to contribute to ongoing projects
+- **Collaboration:** Effective team member and mentor to new students
+- **Research Impact:** Ability to produce high-quality, publishable research
+
+---
+
+*This program combines rigorous technical training with practical application to sustainability challenges. The integration of established course materials, hands-on coding, and research methodology creates a comprehensive learning experience that prepares participants for impactful research careers.*
+
+**Contact Information:**  
+Sustainability Lab | IIT Gandhinagar  
+Website: https://sustainability-lab.github.io/  
+Course Materials: Links provided throughout program

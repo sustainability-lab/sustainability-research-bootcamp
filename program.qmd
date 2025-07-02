@@ -789,6 +789,7 @@ Create comprehensive project proposal including:
 
 ### Technical Competencies
 Participants will be able to:
+
 - ✅ Implement complete ML pipelines from data to deployment
 - ✅ Apply appropriate algorithms for sustainability problems
 - ✅ Conduct rigorous experimental evaluation

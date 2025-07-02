@@ -112,24 +112,64 @@ thead th {
   font-weight: 600;
 }
 
-// Navigation
+// Navigation - Make logo PROMINENT
 .navbar {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  min-height: 160px !important;
+  padding: 20px 0 !important;
+}
+
+// Logo styling - make it HUGE and prominent
+.navbar-brand {
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: 1 !important;
   
+  img {
+    height: 140px !important;
+    width: auto !important;
+    max-width: 400px !important;
+    margin: 10px 15px !important;
+    display: block !important;
+    object-fit: contain !important;
+    vertical-align: middle !important;
+    transition: transform 0.2s ease !important;
+    
+    &:hover {
+      transform: scale(1.05) !important;
+    }
+  }
+}
+
+// Override any Bootstrap navbar-brand defaults
+.navbar-brand:hover,
+.navbar-brand:focus {
+  text-decoration: none !important;
+}
+
+// Ensure the navbar brand takes full space
+.navbar > .container,
+.navbar > .container-fluid {
+  align-items: center !important;
+}
+
+// Ensure navbar content is properly aligned
+.navbar-nav {
+  margin-left: auto !important;
+  align-items: center !important;
+}
+
+// Make sure logo doesn't get cut off on mobile
+@media (max-width: 768px) {
   .navbar-brand img {
-    height: 120px !important;
-    width: auto;
-    max-width: 350px;
-    margin: 10px 0;
+    height: 100px !important;
+    max-width: 280px !important;
+    margin: 5px 10px !important;
   }
   
   .navbar {
-    min-height: 140px !important;
-    padding: 15px 0;
-  }
-  
-  .navbar-brand {
-    padding: 0 !important;
+    min-height: 120px !important;
+    padding: 10px 0 !important;
   }
 }
 

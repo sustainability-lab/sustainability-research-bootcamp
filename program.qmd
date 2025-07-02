@@ -52,6 +52,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 ### 🏆 **Daily Assessment: Activity Recognition Analysis (60 minutes)**
 **Dataset:** [UCI Human Activity Recognition](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones)
 **Tasks:**
+
 1. Load and explore accelerometer/gyroscope data
 2. Calculate basic statistics for each activity type
 3. Find patterns in sensor readings for walking vs sitting
@@ -175,20 +176,21 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 39. Create 3D visualizations for scientific data
 40. Implement plot export pipeline for publications
 
-### 🏆 **Daily Assessment: Integrated Analysis Project (120 minutes)**
-**Dataset:** Smart city sensor data (temperature, humidity, air quality, traffic)
-**Challenge:** Create an automated analysis pipeline that:
-1. Loads and validates multiple data sources
-2. Performs comprehensive data cleaning
-3. Creates an automated report with 8+ visualizations
-4. Implements statistical tests for data quality
-5. Generates actionable insights for city planners
+### 🏆 **Daily Assessment: Multi-Dataset Analysis (120 minutes)**
+**Dataset:** [Seaborn Tips](https://seaborn.pydata.org/generated/seaborn.load_dataset.html) + [Seaborn Flights](https://seaborn.pydata.org/generated/seaborn.load_dataset.html)
+
+**Tasks:**
+
+1. Load both tips and flights datasets
+2. Clean and explore each dataset separately
+3. Create 4 visualizations for tips data (bill vs tip patterns)
+4. Create 4 visualizations for flights data (passenger trends)
+5. Write simple summary comparing patterns in both datasets
 
 **Evaluation Criteria:**
-- Code quality and efficiency (30%)
-- Data cleaning thoroughness (25%)
-- Visualization quality (25%)
-- Insights and interpretability (20%)
+- Code quality and readability (40%)
+- Visualization clarity (30%)
+- Data insights (30%)
 
 ---
 
@@ -233,6 +235,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 ### 🏆 **Daily Assessment: Housing Price Prediction (90 minutes)**
 **Dataset:** [UCI Boston Housing Dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/housing/)
 **Tasks:**
+
 1. Predict house prices using neighborhood features
 2. Compare linear regression, ridge, and lasso performance  
 3. Create simple feature combinations (e.g., rooms per capita)
@@ -278,15 +281,17 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 3. Analyze curse of dimensionality
 4. Implement efficient neighbor search
 
-### 🏆 **Daily Assessment: Wine Quality Classification (120 minutes)**
-**Dataset:** [UCI Wine Quality Dataset](https://archive.ics.uci.edu/ml/datasets/wine+quality)
-**Challenge:**
-1. Build classifier to predict wine quality (good vs bad)
+### 🏆 **Daily Assessment: Iris Species Classification (120 minutes)**
+**Dataset:** [Seaborn Iris Dataset](https://seaborn.pydata.org/generated/seaborn.load_dataset.html) (built-in, no download needed!)
+
+**Tasks:**
+
+1. Build classifier to predict iris species (setosa, versicolor, virginica)
 2. Compare decision tree, random forest, and KNN performance
-3. Use tree-based feature importance to find key factors
+3. Use tree-based feature importance to find key measurements
 4. Create simple model interpretation plots
-5. Handle class imbalance with basic techniques
-6. Create simple prediction function
+5. Visualize decision boundaries for 2D projections
+6. Create simple prediction function for new flowers
 
 **Evaluation:** Model performance + interpretability + code clarity
 
@@ -329,17 +334,19 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 3. Practice with 1D CNN for time series
 4. **PDF:** [1D CNN](https://nipunbatra.github.io/ml-teaching/slides/1d-cnn.pdf)
 
-### 🏆 **Daily Assessment: Energy Consumption Forecasting (120 minutes)**
-**Dataset:** Multi-building energy consumption time series
-**Tasks:**
-1. Build neural network for energy forecasting
-2. Compare MLP vs 1D CNN performance
-3. Implement sequence-to-sequence prediction
-4. Add attention mechanisms for interpretability
-5. Create real-time prediction dashboard
-6. Analyze model predictions vs actual consumption
+### 🏆 **Daily Assessment: Simple Time Series Prediction (120 minutes)**
+**Dataset:** [Seaborn Flights Dataset](https://seaborn.pydata.org/generated/seaborn.load_dataset.html) (passenger numbers over time)
 
-**Bonus:** Implement transformer architecture for time series
+**Tasks:**
+
+1. Build simple neural network to predict passenger numbers
+2. Compare basic MLP vs simpler approaches
+3. Create train/validation/test splits for time series
+4. Plot predictions vs actual values
+5. Calculate and interpret prediction errors
+6. Experiment with different number of hidden layers
+
+**Bonus:** Try predicting multiple steps ahead
 
 ---
 
@@ -380,14 +387,15 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 5. Document experiments and results
 
 ### 🏆 **Daily Assessment: Collaborative ML Project (150 minutes)**
-**Challenge:** Work in teams of 2-3 to:
-1. Choose a sustainability dataset from previous days
-2. Create shared GitHub repository with proper structure
-3. Each member implements different ML algorithm
-4. Use branches for development, merge via pull requests
-5. Create comprehensive documentation
-6. Set up automated testing for code quality
-7. Deploy final model with GitHub Actions
+**Tasks:**
+
+1. Work in teams of 2-3 people
+2. Choose one simple dataset (tips, iris, housing)
+3. Create shared GitHub repository
+4. Each member implements different ML algorithm
+5. Use branches for development, merge via pull requests
+6. Create basic README with results
+7. Present final comparison of approaches
 
 **Evaluation:** Git usage + collaboration quality + final project
 
@@ -649,7 +657,7 @@ Create comprehensive project proposal including:
 1. **[UCI Human Activity Recognition](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones):** Sensor data analysis
 2. **[UCI Weather Dataset](https://archive.ics.uci.edu/ml/datasets/Weather+Dataset):** Basic time series
 3. **[Seaborn Built-in Datasets](https://seaborn.pydata.org/generated/seaborn.load_dataset.html):** (tips, flights, iris) Simple exploration
-4. **[UCI Wine Quality](https://archive.ics.uci.edu/ml/datasets/wine+quality):** Classification practice
+4. **[Seaborn Iris Dataset](https://seaborn.pydata.org/generated/seaborn.load_dataset.html):** Classic classification (iris species)
 5. **[UCI Boston Housing](https://archive.ics.uci.edu/ml/machine-learning-databases/housing/):** Regression fundamentals
 6. **[Simple Text Data](https://www.gutenberg.org/):** Basic text processing
 

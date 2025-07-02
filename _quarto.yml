@@ -10,7 +10,7 @@ website:
   repo-url: "https://github.com/sustainability-lab/sustainability-research-bootcamp"
   
   navbar:
-    logo: "assets/logo.png"
+    logo: "assets/logo.svg"
     title: "Sustainability Research Bootcamp"
     background: "#2E8B57"
     foreground: "#FFFFFF"

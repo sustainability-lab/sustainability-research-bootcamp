@@ -64,16 +64,24 @@ Every project and dataset focuses on real sustainability challenges - from air q
 ## Program Structure
 
 ```{mermaid}
+%%| fig-width: 8
+%%| fig-height: 6
 flowchart TD
-    A[Days 1-2: Python Fundamentals] --> B[Day 3: 40-Question Assessment]
-    B --> C[Days 4-6: Machine Learning]
-    C --> D[Days 7-9: Research Methods]
-    D --> E[Day 10: Integration & Projects]
+    A["Days 1-2: Python Fundamentals"] --> B["Day 3: Assessment"]
+    B --> C["Days 4-6: Machine Learning"]
+    C --> D["Days 7-9: Research Methods"]
+    D --> E["Day 10: Integration"]
     
-    A --> F[NumPy, Pandas, Matplotlib]
-    C --> G[Linear Models, Trees, Neural Networks]
-    D --> H[Git, LaTeX, Research Bootcamp]
-    E --> I[Final Project Proposal]
+    A --> F["NumPy, Pandas, Matplotlib"]
+    C --> G["Linear Models to Neural Networks"]
+    D --> H["Git, LaTeX, Research Methods"]
+    E --> I["Final Project Proposal"]
+    
+    classDef primaryPath fill:#2E8B57,stroke:#fff,color:#fff
+    classDef skills fill:#4682B4,stroke:#fff,color:#fff
+    
+    class A,B,C,D,E primaryPath
+    class F,G,H,I skills
 ```
 
 ## Target Audience

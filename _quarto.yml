@@ -38,11 +38,10 @@ format:
     theme: 
       - cosmo
       - custom.scss
-    css: styles.css
     toc: true
     toc-depth: 3
     toc-location: right
-    number-sections: true
+    number-sections: false
     code-copy: true
     code-fold: false
     highlight-style: github

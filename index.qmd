@@ -13,8 +13,7 @@ format:
 
 *Preparing the next generation of AI researchers for sustainability challenges*
 
-[Get Started →](program.qmd){.btn .btn-primary .btn-lg role="button"}
-[View Schedule →](days-1-2.qmd){.btn .btn-outline-secondary .btn-lg role="button"}
+[View Complete Program →](program.qmd){.btn .btn-primary .btn-lg role="button"}
 :::
 
 ## Program Overview
@@ -155,7 +154,11 @@ Ready to begin your journey in sustainability research?
 
 [**View Full Program →**](program.qmd){.btn .btn-primary .btn-lg}
 
-[**Contact Us →**](about.qmd){.btn .btn-outline-secondary .btn-lg}
+## 📞 Contact
+
+**Sustainability Lab, IIT Gandhinagar**  
+Email: nipun.batra@iitgn.ac.in  
+Website: https://sustainability-lab.github.io/
 
 ---
 

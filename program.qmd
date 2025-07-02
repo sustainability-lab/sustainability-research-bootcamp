@@ -667,9 +667,31 @@ Participants will be able to:
 
 ---
 
-*This program combines rigorous technical training with practical application to sustainability challenges. The integration of established course materials, hands-on coding, and research methodology creates a comprehensive learning experience that prepares participants for impactful research careers.*
+## 📚 **Key Resources**
 
-**Contact Information:**  
-Sustainability Lab | IIT Gandhinagar  
+### Course Materials
+- **[ES 114 PSDV](https://nipunbatra.github.io/psdv25/)**: Python fundamentals with YouTube lectures
+- **[ES 335 ML](https://nipunbatra.github.io/ml2024/)**: Machine learning with PDF slides
+- **[CS Research Bootcamp](https://github.com/nipunbatra/CS-Research-Methods-Bootcamp)**: Research methodology
+
+### Essential Tools
+- **Python 3.8+**, NumPy, Pandas, Matplotlib, Scikit-learn, PyTorch
+- **Git/GitHub**, Jupyter Lab, VS Code, LaTeX/Overleaf
+
+### Infrastructure
+- **Lab Servers**: GPU access (A100, RTX A5000) for computational work
+- **Google Colab**: Cloud computing for exercises
+
+---
+
+## 📞 **Contact & Application**
+
+**Sustainability Lab, IIT Gandhinagar**  
+Email: nipun.batra@iitgn.ac.in  
 Website: https://sustainability-lab.github.io/  
-Course Materials: Links provided throughout program
+
+**Application**: Email with CV, research interests, and 1-2 lab papers you've read.
+
+---
+
+*This program combines rigorous technical training with practical application to sustainability challenges. The integration of established course materials, hands-on coding, and research methodology creates a comprehensive learning experience that prepares participants for impactful research careers.*

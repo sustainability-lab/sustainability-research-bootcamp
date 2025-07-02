@@ -19,44 +19,11 @@ website:
         file: index.qmd
       - text: "Program"
         file: program.qmd
-      - text: "Daily Schedule"
-        menu:
-          - text: "Days 1-2: Python Basics"
-            file: days-1-2.qmd
-          - text: "Day 3: Assessment"
-            file: day-3.qmd
-          - text: "Days 4-6: Machine Learning"
-            file: days-4-6.qmd
-          - text: "Days 7-9: Research Skills"
-            file: days-7-9.qmd
-          - text: "Day 10: Integration"
-            file: day-10.qmd
-      - text: "Resources"
-        file: resources.qmd
-      - text: "About"
-        file: about.qmd
     right:
       - icon: github
         href: "https://github.com/sustainability-lab/sustainability-research-bootcamp"
       - icon: globe
         href: "https://sustainability-lab.github.io/"
-
-  sidebar:
-    - title: "Program Overview"
-      contents:
-        - index.qmd
-        - program.qmd
-    - title: "Daily Schedule"
-      contents:
-        - days-1-2.qmd
-        - day-3.qmd
-        - days-4-6.qmd
-        - days-7-9.qmd
-        - day-10.qmd
-    - title: "Resources"
-      contents:
-        - resources.qmd
-        - about.qmd
 
   page-footer:
     left: |

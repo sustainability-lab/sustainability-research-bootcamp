@@ -67,9 +67,9 @@ Every project and dataset focuses on real sustainability challenges - from air q
 |------|-------|------------|------------|
 | **1-2** | Python Fundamentals | NumPy, Pandas, Matplotlib | Energy Data Analysis |
 | **3** | Skills Assessment | 40 Challenge Questions | Smart City Analysis |
-| **4-6** | Machine Learning | Linear Models → Neural Networks | Solar Energy + Air Quality |
+| **4-6** | Machine Learning | Linear Models → Neural Networks + PyTorch | Solar Energy + Air Quality |
 | **7-9** | Research Methods | Git, LaTeX, Scientific Writing | Research Proposal |
-| **10** | Integration | Lab Projects, Final Presentation | Internship Project |
+| **10** | Modern Tools & Integration | YOLO, Hugging Face, Lab Projects | Internship Project |
 
 :::{.text-center}
 **🎯 Path: Python Basics → ML Mastery → Research Skills → Real Impact**

@@ -3,3 +3,11 @@
 # but keeping minimal set in case any notebooks need to execute
 
 jupyter>=1.0.0
+
+# ML/DL frameworks mentioned in curriculum (for reference only)
+# Students will install these during bootcamp:
+# scikit-learn>=1.0.0
+# torch>=1.9.0
+# transformers>=4.0.0
+# ultralytics  # for YOLO
+# label-studio-sdk

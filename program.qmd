@@ -281,13 +281,13 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 4. Compare with scikit-learn implementation
 5. Analyze tree depth vs performance
 
-#### **Exercise 5B: Ensemble Methods (75 minutes)**
+#### **Exercise 5B: Ensemble Methods with Scikit-learn (75 minutes)**
 
-1. Implement Random Forest from scratch
-2. Create bagging and boosting examples
+1. Use `StandardScaler` and `MinMaxScaler` for data preprocessing
+2. Implement `RandomForestClassifier` with different parameters
 3. Compare individual trees vs ensemble performance
-4. Feature importance analysis
-5. Out-of-bag error calculation
+4. Feature importance analysis using `.feature_importances_`
+5. Cross-validation with `cross_val_score`
 
 #### **Exercise 5C: K-Nearest Neighbors (45 minutes)**
 
@@ -336,21 +336,22 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 4. Implement mini-batch gradient descent
 5. Compare with analytical solutions
 
-#### **Exercise 6B: PyTorch Mastery (75 minutes)**
+#### **Exercise 6B: PyTorch Framework Deep Dive (75 minutes)**
 
-1. Recreate Day 6A network using PyTorch
-2. Implement custom loss functions
-3. Create data loaders for batch processing
+1. Build neural networks using `torch.nn.Module`
+2. Implement CNNs using `torch.nn.Conv2d` and `torch.nn.MaxPool2d`
+3. Create data loaders with `torch.utils.data.DataLoader`
 4. Add regularization (dropout, weight decay)
-5. Implement learning rate scheduling
+5. Implement learning rate scheduling with `torch.optim.lr_scheduler`
 
-#### **Exercise 6C: CNN Introduction (60 minutes)**
+#### **Exercise 6C: Advanced PyTorch Architectures (60 minutes)**
 **PDF:** [Convolutional Neural Networks](https://nipunbatra.github.io/ml-teaching/slides/CNN.pdf)
 
-1. Build simple CNN for image classification
-2. Understand convolution and pooling operations
-3. Practice with 1D CNN for time series
-4. **PDF:** [1D CNN](https://nipunbatra.github.io/ml-teaching/slides/1d-cnn.pdf)
+1. Build CNN using `torch.nn.Conv2d` for image classification
+2. Implement LSTM using `torch.nn.LSTM` for time series
+3. Practice sequence modeling with `torch.nn.Sequential`
+4. Compare CNN vs LSTM performance on time series data
+5. **PDF:** [1D CNN](https://nipunbatra.github.io/ml-teaching/slides/1d-cnn.pdf)
 
 ### 🏆 **Daily Assessment: Simple Time Series Prediction (120 minutes)**
 **Dataset:** [Seaborn Flights Dataset](https://seaborn.pydata.org/generated/seaborn.load_dataset.html) (passenger numbers over time)
@@ -572,13 +573,13 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 4. Consider practical implementation challenges
 5. Assess potential societal impact
 
-#### **Exercise 10C: Technical Implementation Planning (75 minutes)**
+#### **Exercise 10C: Modern ML Tools Integration (75 minutes)**
 
-1. Design ML pipeline for chosen problem
-2. Identify required datasets and collection methods
-3. Select appropriate algorithms and evaluation metrics
-4. Plan computational resource requirements
-5. Create timeline with milestones
+1. **Hugging Face Demo:** Try zero-shot classification with `transformers`
+2. **YOLO Exploration:** Run pre-trained object detection on sample images
+3. **Label Studio Setup:** Create simple annotation project (minimal)
+4. **Integration Planning:** Combine traditional ML + modern tools
+5. Plan computational resource requirements for deployment
 
 ### 🏆 **Final Assessment: Internship Project Proposal (180 minutes)**
 
@@ -675,8 +676,12 @@ Create comprehensive project proposal including:
 
 ### Software Stack
 - **Python 3.8+** with Anaconda distribution
-- **Core Libraries:** NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn
-- **Deep Learning:** PyTorch (primary), TensorFlow (optional)
+- **Core Libraries:** NumPy, Pandas, Matplotlib, Seaborn
+- **Traditional ML:** Scikit-learn (StandardScaler, MinMaxScaler, RandomForestClassifier)
+- **Deep Learning:** PyTorch (NN, CNN, LSTM)
+- **Computer Vision:** YOLO (ultralytics package)
+- **NLP/LLMs:** Hugging Face Transformers (zero-shot, few-shot, fine-tuning)
+- **Data Annotation:** Label Studio (minimal usage)
 - **Development:** Jupyter Lab, VS Code, Git
 - **Documentation:** LaTeX (Overleaf), Markdown
 - **Collaboration:** Git, GitHub, Slack
@@ -746,8 +751,15 @@ Participants will be able to:
 - **[ES 335 ML](https://nipunbatra.github.io/ml2024/)**: Machine learning with PDF slides
 - **[CS Research Bootcamp](https://github.com/nipunbatra/CS-Research-Methods-Bootcamp)**: Research methodology
 
-### Essential Tools
-- **Python 3.8+**, NumPy, Pandas, Matplotlib, Scikit-learn, PyTorch
+### 🔶 **ML/DL Frameworks & Tools**
+- **Scikit-learn:** StandardScaler, MinMaxScaler, RandomForestClassifier
+- **PyTorch:** Neural Networks (NN), Convolutional Networks (CNN), LSTM
+- **Computer Vision:** YOLO (object detection)
+- **Hugging Face:** LLM integration (zero-shot, few-shot, basic fine-tuning)
+- **Label Studio:** Data annotation (minimal usage)
+
+### Essential Development Tools
+- **Python 3.8+**, NumPy, Pandas, Matplotlib
 - **Git/GitHub**, Jupyter Lab, VS Code, LaTeX/Overleaf
 
 ### Infrastructure

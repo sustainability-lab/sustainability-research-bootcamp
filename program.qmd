@@ -369,18 +369,25 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 
 ---
 
-## **Day 7: Version Control & Collaboration**
-*Git, GitHub, and Development Workflow*
+## **Day 7: Development Workflow: Git, GitHub & Remote Servers**
+*From Local Code to Collaborative & Remote Execution*
 
 ### 📚 **Learning Materials**
-- **Tutorial:** [GitHub Skills Course](https://github.com/skills)
-- **Video:** [Git Tutorial by Kevin Stratvert](https://www.youtube.com/watch?v=tRZGeaHPoaw)
-- **Resource:** Lab Handbook - Academic & Research Skills section
+- **Git & GitHub:**
+  - **Tutorial:** [GitHub Skills Course](https://github.com/skills)
+  - **Video:** [Git Tutorial by Kevin Stratvert](https://www.youtube.com/watch?v=tRZGeaHPoaw)
+- **Remote Servers & SSH:**
+  - **In-Depth Guide:** [A Beginner's Guide to Remote Servers for ML](https://devansh-lodha.github.io/blog/posts/remote_ssh_servers/remote_ssh_servers.html) (A great resource to reference)
+  - **Tool:** [tmux Cheat Sheet](https://tmuxcheatsheet.com/)
+  - **VS Code:** [Remote SSH Extension Guide](https://code.visualstudio.com/docs/remote/ssh)
 
 ### **Learning Objectives**
-- Master Git version control
-- Understand collaborative development
-- Apply to ML project workflows
+- Master Git version control for tracking changes.
+- Understand collaborative development on GitHub using forks and pull requests.
+- Apply version control to ML project workflows with proper structure.
+- Connect securely to remote servers using SSH and key-based authentication.
+- Monitor and manage server resources like GPUs and disk space.
+- Run persistent, long-running experiments using `tmux`.
 
 ### **Daily Exercises**
 
@@ -408,18 +415,39 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 4. Create reproducible environments
 5. Document experiments and results
 
-### **Daily Assessment: Collaborative ML Project (150 minutes)**
+#### **Exercise 7D: Remote Server Connection (45 minutes)**
+1.  **First Connection:** Connect to a remote server using the `ssh` command with the username, IP address, and port provided by your instructor.
+2.  **SSH Key Authentication:** Secure your connection and enable passwordless login.
+    -   Generate an SSH key pair on your **local machine**: `ssh-keygen -t rsa -b 4096`
+    -   Copy your public key to the remote server using `ssh-copy-id`.
+    ```bash
+    # Adjust the user, host, and port as needed
+    ssh-copy-id -p 2222 user@remote.server.com
+    ```
+3.  **SSH Shortcut:** Create a host alias in your local `~/.ssh/config` file for quick access to the server.
+
+#### **Exercise 7E: Server Management & Persistent Sessions (45 minutes)**
+1.  **Server Monitoring:** Log in and practice these essential monitoring commands.
+    -   Check GPU usage: `watch nvidia-smi`
+    -   Check CPU and memory usage: `htop`
+    -   Check your disk usage: `du -sh ~`
+2.  **Persistent Sessions with `tmux`:** Run experiments that survive disconnections.
+    -   Start a new named `tmux` session: `tmux new -s my_experiment`
+    -   Inside the session, run a long-running command (e.g., `top`).
+    -   Detach from the session: Press `Ctrl+b`, then `d`.
+    -   Log out, log back in, and re-attach to your session to see it is still running: `tmux attach -t my_experiment`
+
+### **Daily Assessment: Collaborative Remote ML Project (150 minutes)**
 **Tasks:**
 
-1. Work in teams of 2-3 people
-2. Choose one simple dataset (tips, iris, housing)
-3. Create shared GitHub repository
-4. Each member implements different ML algorithm
-5. Use branches for development, merge via pull requests
-6. Create basic README with results
-7. Present final comparison of approaches
+1.  Work in teams of 2-3 people.
+2.  Choose one simple dataset (tips, iris, housing) and create a shared GitHub repository.
+3.  Each member implements a different ML algorithm on a separate branch, then merges via a pull request.
+4.  **Remote Execution:** One team member logs into the remote lab server, clones the final repository, and runs the main training script inside a `tmux` session.
+5.  **Documentation:** Create a basic `README.md` file that summarizes the results and includes the command to re-attach to the `tmux` session, proving the experiment is running persistently.
+6.  Present the final comparison of approaches and the running remote session.
 
-**Evaluation:** Git usage + collaboration quality + final project
+**Evaluation:** Git usage + collaboration quality + successful remote execution + final project.
 
 ---
 

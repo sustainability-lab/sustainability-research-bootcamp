@@ -15,21 +15,21 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 
 ---
 
-## 📚 **Day 1: NumPy Fundamentals**
+## **Day 1: NumPy Fundamentals**
 *Array Computing for Data Science*
 
-### 🎥 **Lecture Materials**
+### **Lecture Materials**
 - **Video:** [Introduction to NumPy](https://www.youtube.com/watch?v=CAzR00au0T0) (PSDV25 Lecture 1)
 - **Notebook:** [NumPy Introduction](https://nipunbatra.github.io/psdv-teaching/notebooks/intro-numpy.html)
 - **Additional:** [Broadcasting Concepts](https://www.youtube.com/watch?v=oG1t3qlzq14)
 - **Lab:** [Google Colab NumPy Practice](https://colab.research.google.com/drive/169vg_FV35sJ8irVXU82RrTwlR762Ph2g)
 
-### 🎯 **Learning Objectives**
+### **Learning Objectives**
 - Master NumPy array operations and indexing
 - Understand broadcasting and vectorization
 - Apply NumPy to mathematical computations
 
-### 📝 **Daily Exercises**
+### **Daily Exercises**
 
 #### **Exercise 1A: Array Fundamentals (30 minutes)**
 
@@ -52,7 +52,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 3. Create meshgrids for plotting
 4. Normalize arrays using broadcasting
 
-### 🏆 **Daily Assessment: Activity Recognition Analysis (60 minutes)**
+### **Daily Assessment: Activity Recognition Analysis (60 minutes)**
 **Dataset:** [UCI Human Activity Recognition](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones)
 **Tasks:**
 
@@ -66,22 +66,22 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 
 ---
 
-## 📊 **Day 2: Pandas & Matplotlib**
+## **Day 2: Pandas & Matplotlib**
 *Data Manipulation and Visualization*
 
-### 🎥 **Lecture Materials**
+### **Lecture Materials**
 - **Video 1:** [Introduction to Pandas](https://www.youtube.com/watch?v=iaQDhwFkAhA) (PSDV25 Lecture 3)
 - **Video 2:** [Introduction to Matplotlib](https://www.youtube.com/watch?v=ERu46g5EzVk) (PSDV25 Lecture 4)
 - **Notebook 1:** [Pandas Fundamentals](https://nipunbatra.github.io/psdv-teaching/notebooks/introduction-pandas.html)
 - **Notebook 2:** [Matplotlib Basics](https://nipunbatra.github.io/psdv-teaching/notebooks/introduction-matplotlib.html)
 - **Lab:** [Google Colab Pandas Practice](https://colab.research.google.com/drive/1pmt8hSfwzhp8ke3uXsGrOt4XELdoTmr1)
 
-### 🎯 **Learning Objectives**
+### **Learning Objectives**
 - Master DataFrame operations and data cleaning
 - Create professional visualizations
 - Combine data from multiple sources
 
-### 📝 **Daily Exercises**
+### **Daily Exercises**
 
 #### **Exercise 2A: DataFrame Operations (45 minutes)**
 
@@ -107,7 +107,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 4. Subplots and figure customization
 5. Save high-quality figures
 
-### 🏆 **Daily Assessment: Weather Data Analysis (90 minutes)**
+### **Daily Assessment: Weather Data Analysis (90 minutes)**
 **Dataset:** [UCI Weather Dataset](https://archive.ics.uci.edu/ml/datasets/Weather+Dataset) or built-in [Seaborn Flights Dataset](https://seaborn.pydata.org/generated/seaborn.load_dataset.html)
 
 **Tasks:**
@@ -127,14 +127,14 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 
 ---
 
-## 🤖 **Day 3: Python Mastery Assessment**
+## **Day 3: Python Mastery Assessment**
 *Comprehensive Skills Evaluation*
 
 ### 📚 **Review Materials**
 - Consolidate learning from Days 1-2
 - Python Data Science Handbook (Chapters 1-4)
 
-### 🧪 **40 Challenge Questions (180 minutes)**
+### **40 Challenge Questions (180 minutes)**
 
 #### **NumPy Section (Questions 1-15)**
 1. Create a 3D array (5×4×3) filled with random integers from 1-100
@@ -182,7 +182,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 39. Create 3D visualizations for scientific data
 40. Implement plot export pipeline for publications
 
-### 🏆 **Daily Assessment: Multi-Dataset Analysis (120 minutes)**
+### **Daily Assessment: Multi-Dataset Analysis (120 minutes)**
 **Dataset:** [Seaborn Tips](https://seaborn.pydata.org/generated/seaborn.load_dataset.html) + [Seaborn Flights](https://seaborn.pydata.org/generated/seaborn.load_dataset.html)
 
 **Tasks:**
@@ -200,20 +200,20 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 
 ---
 
-## 🎓 **Day 4: Machine Learning Introduction**
+## **Day 4: Machine Learning Introduction**
 *Foundations of Supervised Learning*
 
-### 🎥 **Lecture Materials**
+### **Lecture Materials**
 - **Video:** [ML Course Playlist](https://www.youtube.com/playlist?list=PLftoLyLEwECDqanAL7LkZNnZG9VdNCiJF) - Introduction lectures
 - **PDF:** [Introduction to ML](https://nipunbatra.github.io/ml-teaching/slides/1-introduction-ml.pdf)
 - **Notebooks:** [ML Teaching Collection](https://nipunbatra.github.io/ml-teaching/notebooks.html) - Intro sections
 
-### 🎯 **Learning Objectives**
+### **Learning Objectives**
 - Understand supervised vs unsupervised learning
 - Master the ML workflow and evaluation
 - Implement basic algorithms from scratch
 
-### 📝 **Daily Exercises**
+### **Daily Exercises**
 
 #### **Exercise 4A: ML Workflow (60 minutes)**
 
@@ -243,7 +243,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 3. Create confusion matrices and ROC curves
 4. Practice precision, recall, F1-score calculations
 
-### 🏆 **Daily Assessment: Housing Price Prediction (90 minutes)**
+### **Daily Assessment: Housing Price Prediction (90 minutes)**
 **Dataset:** [UCI Boston Housing Dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/housing/)
 **Tasks:**
 
@@ -257,21 +257,21 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 
 ---
 
-## 🌳 **Day 5: Tree-Based Methods**
+## **Day 5: Tree-Based Methods**
 *Non-Linear Models and Ensemble Learning*
 
-### 🎥 **Lecture Materials**
+### **Lecture Materials**
 - **PDF:** [Decision Trees](https://nipunbatra.github.io/ml-teaching/slides/decision-trees.pdf)
 - **PDF:** [Ensemble Methods](https://nipunbatra.github.io/ml-teaching/slides/ensemble.pdf)
 - **PDF:** [K-Nearest Neighbors](https://nipunbatra.github.io/ml-teaching/slides/knn.pdf)
 - **Video:** [ML Course Playlist - Tree Methods](https://www.youtube.com/playlist?list=PLftoLyLEwECDqanAL7LkZNnZG9VdNCiJF)
 
-### 🎯 **Learning Objectives**
+### **Learning Objectives**
 - Master decision tree algorithms
 - Understand ensemble methods
 - Apply to complex real-world problems
 
-### 📝 **Daily Exercises**
+### **Daily Exercises**
 
 #### **Exercise 5A: Decision Tree Implementation (90 minutes)**
 
@@ -296,7 +296,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 3. Analyze curse of dimensionality
 4. Implement efficient neighbor search
 
-### 🏆 **Daily Assessment: Iris Species Classification (120 minutes)**
+### **Daily Assessment: Iris Species Classification (120 minutes)**
 **Dataset:** [Seaborn Iris Dataset](https://seaborn.pydata.org/generated/seaborn.load_dataset.html) (built-in, no download needed!)
 
 **Tasks:**
@@ -312,21 +312,21 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 
 ---
 
-## 🔥 **Day 6: Neural Networks & PyTorch**
+## **Day 6: Neural Networks & PyTorch**
 *Introduction to Deep Learning*
 
-### 🎥 **Lecture Materials**
+### **Lecture Materials**
 - **PDF:** [Multilayer Perceptron](https://nipunbatra.github.io/ml-teaching/slides/mlp.pdf)
 - **PDF:** [Gradient Descent](https://nipunbatra.github.io/ml-teaching/slides/gradient-descent.pdf)
 - **PDF:** [Stochastic Gradient Descent](https://nipunbatra.github.io/ml-teaching/slides/SGD.pdf)
 - **Notebook:** [PyTorch Logistic Regression](https://nipunbatra.github.io/psdv-teaching/notebooks/logistic-regression-generative.html)
 
-### 🎯 **Learning Objectives**
+### **Learning Objectives**
 - Understand neural network fundamentals
 - Master PyTorch for deep learning
 - Implement backpropagation from scratch
 
-### 📝 **Daily Exercises**
+### **Daily Exercises**
 
 #### **Exercise 6A: Neural Network from Scratch (90 minutes)**
 
@@ -353,7 +353,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 4. Compare CNN vs LSTM performance on time series data
 5. **PDF:** [1D CNN](https://nipunbatra.github.io/ml-teaching/slides/1d-cnn.pdf)
 
-### 🏆 **Daily Assessment: Simple Time Series Prediction (120 minutes)**
+### **Daily Assessment: Simple Time Series Prediction (120 minutes)**
 **Dataset:** [Seaborn Flights Dataset](https://seaborn.pydata.org/generated/seaborn.load_dataset.html) (passenger numbers over time)
 
 **Tasks:**
@@ -369,7 +369,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 
 ---
 
-## 🔧 **Day 7: Version Control & Collaboration**
+## **Day 7: Version Control & Collaboration**
 *Git, GitHub, and Development Workflow*
 
 ### 📚 **Learning Materials**
@@ -377,12 +377,12 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 - **Video:** [Git Tutorial by Kevin Stratvert](https://www.youtube.com/watch?v=tRZGeaHPoaw)
 - **Resource:** Lab Handbook - Academic & Research Skills section
 
-### 🎯 **Learning Objectives**
+### **Learning Objectives**
 - Master Git version control
 - Understand collaborative development
 - Apply to ML project workflows
 
-### 📝 **Daily Exercises**
+### **Daily Exercises**
 
 #### **Exercise 7A: Git Fundamentals (60 minutes)**
 
@@ -408,7 +408,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 4. Create reproducible environments
 5. Document experiments and results
 
-### 🏆 **Daily Assessment: Collaborative ML Project (150 minutes)**
+### **Daily Assessment: Collaborative ML Project (150 minutes)**
 **Tasks:**
 
 1. Work in teams of 2-3 people
@@ -423,7 +423,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 
 ---
 
-## 📝 **Day 8: Scientific Writing & LaTeX**
+## **Day 8: Scientific Writing & LaTeX**
 *Academic Communication and Documentation*
 
 ### 📚 **Learning Materials**
@@ -431,12 +431,12 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 - **Guide:** Lab Handbook - Technical Writing section
 - **Examples:** Sustainability Lab publications for reference
 
-### 🎯 **Learning Objectives**
+### **Learning Objectives**
 - Master LaTeX for academic writing
 - Understand scientific paper structure
 - Create publication-ready documents
 
-### 📝 **Daily Exercises**
+### **Daily Exercises**
 
 #### **Exercise 8A: LaTeX Fundamentals (75 minutes)**
 
@@ -462,7 +462,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 4. Present experimental results clearly
 5. Write conclusions and future work
 
-### 🏆 **Daily Assessment: Research Paper Draft (120 minutes)**
+### **Daily Assessment: Research Paper Draft (120 minutes)**
 **Task:** Write a 4-page research paper on your Day 6 neural network project
 **Required Sections:**
 1. Abstract (150 words)
@@ -476,7 +476,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 
 ---
 
-## 🎓 **Day 9: Research Methods Bootcamp**
+## **Day 9: Research Methods Bootcamp**
 *Scientific Thinking and Research Skills*
 
 ### 📚 **Learning Materials**
@@ -484,12 +484,12 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 - **Video:** Bootcamp session recordings
 - **Lab Resource:** Academic & Research Skills from handbook
 
-### 🎯 **Learning Objectives**
+### **Learning Objectives**
 - Develop scientific thinking skills
 - Master research communication
 - Learn systematic problem-solving
 
-### 📝 **Daily Exercises**
+### **Daily Exercises**
 
 #### **Exercise 9A: Email Communication (45 minutes)**
 **Based on Bootcamp Session 1**
@@ -527,7 +527,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 4. Learn to ask precise technical questions
 5. Develop problem isolation skills
 
-### 🏆 **Daily Assessment: Research Proposal (120 minutes)**
+### **Daily Assessment: Research Proposal (120 minutes)**
 **Tasks:**
 
 1. Problem statement with motivation
@@ -542,7 +542,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 
 ---
 
-## 🚀 **Day 10: Integration & Lab Projects**
+## **Day 10: Integration & Lab Projects**
 *Connecting Skills to Research Impact*
 
 ### 📚 **Learning Materials**
@@ -550,12 +550,12 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 - **Research Papers:** Recent lab publications
 - **Resources:** Lab handbook and current project overviews
 
-### 🎯 **Learning Objectives**
+### **Learning Objectives**
 - Connect ML skills to sustainability applications
 - Understand lab research domains
 - Design internship project proposal
 
-### 📝 **Daily Exercises**
+### **Daily Exercises**
 
 #### **Exercise 10A: Lab Project Deep Dive (90 minutes)**
 
@@ -638,7 +638,7 @@ This intensive 10-day program prepares interns with essential ML fundamentals, p
 - Resource utilization report (GPU/CPU/Memory usage)
 - Deployment cost estimation for 1000 images/day
 
-### 🏆 **Final Assessment: Internship Project Proposal (180 minutes)**
+### **Final Assessment: Internship Project Proposal (180 minutes)**
 
 #### **Phase 1: Proposal Development (120 minutes)**
 Create comprehensive project proposal including:
@@ -682,7 +682,7 @@ Create comprehensive project proposal including:
 
 ---
 
-## 📊 **Assessment Framework & Progress Tracking**
+## **Assessment Framework & Progress Tracking**
 
 ### Daily Assessments (70% of total score)
 - **Knowledge Application:** Coding challenges and implementations (40%)
@@ -731,7 +731,7 @@ Create comprehensive project proposal including:
 
 ---
 
-## 💻 **Technical Requirements**
+## **Technical Requirements**
 
 ### Software Stack
 - **Python 3.8+** with Anaconda distribution
@@ -766,7 +766,7 @@ Create comprehensive project proposal including:
 
 ---
 
-## 📚 **Extended Resources**
+## **Extended Resources**
 
 ### Primary Textbooks
 1. **Python Data Science Handbook** - Jake VanderPlas
@@ -785,7 +785,7 @@ Create comprehensive project proposal including:
 
 ---
 
-## 🎯 **Success Outcomes**
+## **Success Outcomes**
 
 ### Technical Competencies
 Participants will be able to:
@@ -810,14 +810,14 @@ Participants will be able to:
 
 ---
 
-## 📚 **Key Resources**
+## **Key Resources**
 
 ### Course Materials
 - **[ES 114 PSDV](https://nipunbatra.github.io/psdv25/)**: Python fundamentals with YouTube lectures
 - **[ES 335 ML](https://nipunbatra.github.io/ml2024/)**: Machine learning with PDF slides
 - **[CS Research Bootcamp](https://github.com/nipunbatra/CS-Research-Methods-Bootcamp)**: Research methodology
 
-### 🔶 **ML/DL Frameworks & Tools**
+### **ML/DL Frameworks & Tools**
 - **Scikit-learn:** StandardScaler, MinMaxScaler, RandomForestClassifier
 - **PyTorch:** Neural Networks (NN), Convolutional Networks (CNN), LSTM
 - **Computer Vision:** YOLO (object detection)
@@ -834,7 +834,7 @@ Participants will be able to:
 
 ---
 
-## 📞 **Contact & Application**
+## **Contact & Application**
 
 **Sustainability Lab, IIT Gandhinagar**  
 Email: nipun.batra@iitgn.ac.in  

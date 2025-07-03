@@ -23,17 +23,17 @@ This **10-day intensive bootcamp** prepares interns, researchers, and students w
 ::::{.grid}
 
 :::{.g-col-12 .g-col-md-4}
-### 🚀 **Comprehensive**
+### **Comprehensive**
 From Python basics to neural networks, covering the complete ML pipeline with hands-on projects using real sustainability datasets.
 :::
 
 :::{.g-col-12 .g-col-md-4}
-### 🔬 **Research-Focused**
+### **Research-Focused**
 Includes scientific writing, research methods, and the complete CS Research Bootcamp for developing strong research skills.
 :::
 
 :::{.g-col-12 .g-col-md-4}
-### 🌱 **Sustainability-Driven**
+### **Sustainability-Driven**
 Every project and dataset focuses on real sustainability challenges - from air quality prediction to energy forecasting.
 :::
 
@@ -74,7 +74,7 @@ Every project and dataset focuses on real sustainability challenges - from air q
 | **10** | Modern Tools & Integration | YOLO, Hugging Face, Lab Projects | Internship Project |
 
 :::{.text-center}
-**🎯 Path: Python Basics → ML Mastery → Research Skills → Real Impact**
+**Path: Python Basics → ML Mastery → Research Skills → Real Impact**
 :::
 
 ## Target Audience
@@ -110,7 +110,17 @@ This bootcamp leverages proven course materials from:
 - **[ES 114 PSDV](https://nipunbatra.github.io/psdv25/)**: Python fundamentals with actual YouTube lectures
 - **[ES 335 ML](https://nipunbatra.github.io/ml2024/)**: Machine learning with comprehensive PDF slides
 - **[CS Research Bootcamp](https://github.com/nipunbatra/CS-Research-Methods-Bootcamp)**: Research methods and scientific thinking
+- **[ACM Summer School 2025](https://sustainability-lab.github.io/acm-summer-2025/)**: Advanced topics and specialized sessions
 - **Lab Projects**: Real sustainability datasets and applications
+
+## ACM Summer School Content
+
+Expand your knowledge with specialized sessions from our ACM Summer School program:
+
+- **[Complete ACM Summer School 2025 Website](https://sustainability-lab.github.io/acm-summer-2025/)**
+- **[Video Playlist - All Sessions](https://www.youtube.com/watch?v=9UKM1dUEU24&list=PLZ_buidQ2ipmfOZRKb999cGN1syNc_jnN)**
+- **[Object Detection Session by Ayush](https://www.youtube.com/watch?v=9UKM1dUEU24&list=PLZ_buidQ2ipmfOZRKb999cGN1syNc_jnN)**: Advanced computer vision techniques
+- **Additional specialized topics**: Deep learning, sustainability applications, and research methods
 
 ## Assessment & Certification
 
@@ -155,7 +165,7 @@ Ready to begin your journey in sustainability research?
 
 [**View Full Program →**](program.qmd){.btn .btn-primary .btn-lg}
 
-## 📞 Contact
+## Contact
 
 **Sustainability Lab, IIT Gandhinagar**  
 Email: nipun.batra@iitgn.ac.in  

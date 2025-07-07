@@ -6,6 +6,7 @@ date: today
 format:
   html:
     page-layout: full
+    favicon: "favicon.svg"
 ---
 
 :::{.hero-banner}
